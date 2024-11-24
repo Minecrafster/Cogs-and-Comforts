@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F202494853473CB",
+    "2135DA8BBCA19500",
+    "54FBA31555C1F9D4",
+    "5670584ECBD778B8"
+  ],
+  "tasks": {
+    "23891C141B0ADC59": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_ingot"
+    }
+  },
+  "rewards": {
+    "4D3E202878AC3227": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:experience_nugget",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Hearts of Steel IV",
+    "description": [
+      "<subtitle id=\"6C3DCF361B4B8275\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23891C141B0ADC59\" quest=\"6C3DCF361B4B8275\"/>",
+      "<hr/>",
+      "The Factory Must Grow!",
+      "<br/>",
+      "No really, this pack includes The Factory Must Grow, and steel is the groundwork of this mod just like how andesite is the groundwork of Create.",
+      "<hr/>",
+      "<reward reward=\"4D3E202878AC3227\" quest=\"6C3DCF361B4B8275\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Cast your first steel ingot"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          -160
+        ]
+      }
+    }
+  }
+}

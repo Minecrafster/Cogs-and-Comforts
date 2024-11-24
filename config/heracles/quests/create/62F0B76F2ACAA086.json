@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "6AF16EE1017D525F": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "But it cuts wood as well"
+    },
+    "description": [
+      "<subtitle id=\"62F0B76F2ACAA086\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6AF16EE1017D525F\" quest=\"62F0B76F2ACAA086\"/>",
+      "<hr/>",
+      "It's a nice tool to have when coming to chopping down trees. Wait, this modpack has viner! You can just veinmine trees by pressing shift!(or whichever key you bound the vine button to). Other than that, it can calso batch-process stonecutting and wood cutting recipes. ",
+      "<br/>",
+      "But honestly for most recipes you can just use your stonecutter instead."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_saw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "It's like a stonecutter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

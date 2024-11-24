@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "7DD339879014E162": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft a mechanical harvester"
+    },
+    "description": [
+      "<subtitle id=\"1F8F9FC8B889601A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7DD339879014E162\" quest=\"1F8F9FC8B889601A\"/>",
+      "<hr/>",
+      "A useful tool that can help greatly with hands-free farming when paired with moving contraptions."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_harvester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Harvest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

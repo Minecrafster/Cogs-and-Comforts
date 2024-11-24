@@ -1,0 +1,31 @@
+{
+    "key": "hephaestan_gold",
+    "category": "metal",
+    "primary": 8,
+    "secondary": 4.6,
+    "tertiary": 1,
+    "durability": 222,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 180,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 28,
+    "tints": {
+        "glyph": "d06400",
+        "texture": "d06400"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [ "goldenglitter:hephaestan_gold_ingot" ]
+    },
+    "effects": {
+        "unstable": 5
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

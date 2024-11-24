@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68FCAD6F7ECF1494"
+  ],
+  "tasks": {
+    "1F1B28AF15CEEE61": {
+      "type": "heracles:item",
+      "item": "tfmg:diesel_engine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:diesel_engine",
+    "description": [
+      "<task task=\"1F1B28AF15CEEE61\" quest=\"74D306DBC5608602\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:diesel_engine"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          528,
+          -96
+        ]
+      }
+    }
+  }
+}

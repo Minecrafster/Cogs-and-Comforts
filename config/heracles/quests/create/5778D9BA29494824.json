@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "6E7BC73432FF7567"
+  ],
+  "tasks": {
+    "1913A8C1CF54B7E3": {
+      "type": "heracles:item",
+      "item": "createaddition:gold_wire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Roll some gold wires"
+    },
+    "description": [
+      "<subtitle id=\"5778D9BA29494824\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1913A8C1CF54B7E3\" quest=\"5778D9BA29494824\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          -378
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:gold_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Valuable Wires"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

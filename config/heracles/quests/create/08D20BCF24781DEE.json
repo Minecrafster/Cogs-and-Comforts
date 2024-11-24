@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3529CBB42FA1574A",
+    "066C1F8E2C84384B"
+  ],
+  "tasks": {
+    "4AA1652D3A356541": {
+      "type": "heracles:item",
+      "item": "tfmg:liquid_concrete_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cement Mixer",
+    "description": [
+      "<subtitle id=\"08D20BCF24781DEE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4AA1652D3A356541\" quest=\"08D20BCF24781DEE\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:liquid_concrete_bucket"
+    },
+    "subtitle": {
+      "text": "Obtain a bucket of liquid concrete"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          208,
+          -240
+        ]
+      }
+    }
+  }
+}

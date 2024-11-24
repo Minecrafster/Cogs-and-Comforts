@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F58CD6F2AC3F1F9"
+  ],
+  "tasks": {
+    "2221E4355C8D18BC": {
+      "type": "heracles:item",
+      "item": "tfmg:diesel_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:diesel_bucket",
+    "description": [
+      "<task task=\"2221E4355C8D18BC\" quest=\"68FCAD6F7ECF1494\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:diesel_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -144
+        ]
+      }
+    }
+  }
+}

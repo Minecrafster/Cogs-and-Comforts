@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "gold": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A bright yellow, soft and conductive metal that some species may consider valuable.",
+      "",
+      "While not very durable, it houses great magical capabilities. ",
+      "<hr/>",
+      "<task task = \"gold\" quest = \"gold\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

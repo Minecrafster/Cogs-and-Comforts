@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "redstone": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A red mineral that can be powered and unpowered by certain interactions. It can be utilized for lots of things.",
+      "<hr/>",
+      "<task task = \"redstone\" quest = \"redstone\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          56,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Redstone"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

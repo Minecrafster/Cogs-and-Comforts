@@ -1,0 +1,37 @@
+
+[General]
+	#Allow Golden Glitter loot to be added to chests?
+	AddChestLoot = true
+
+["Alloy Recipes"]
+	#false disables alloy recipes
+	EnableRoseGoldMaking = true
+	#false disables alloy recipes
+	EnableErubescentGoldMaking = true
+	#false disables alloy recipes
+	EnableHephaestanGoldMaking = true
+	#false disables alloy recipes
+	EnableScarlatiteGoldMaking = true
+
+[Tools]
+	#false disables recipes
+	EnableRoseGoldTools = true
+	#false disables recipes
+	EnableErubescentGoldTools = true
+	#false disables recipes
+	EnableHephaestanGoldTools = true
+	#false disables recipes
+	EnableScarlatiteGoldTools = true
+
+[Armor]
+	#false disables recipes
+	EnableRoseGoldArmor = true
+
+[Rails]
+	#false disables recipes
+	EnableRailRecipes = true
+
+["Fusion Recycling"]
+	#Enable Fusion Recycling recipes for gold alloys?
+	enableFusionFurnaceRecycling = true
+

@@ -1,0 +1,27 @@
+{
+    "key" : "sinisite",
+    "category" : "metal",
+    "primary" : 11.0,
+    "secondary" : 3.0,
+    "tertiary" : 3.0,
+    "durability" : 4100.0,
+    "integrityCost" : 2,
+    "integrityGain" : 5,
+    "magicCapacity" : 66,
+    "toolLevel" : "minecraft:diamond",
+    "toolEfficiency" : 18,
+    "tints" : {
+      "glyph" : "1f1fff",
+      "texture" : "1f1fff"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "fusion:sinisite_ingot" ]
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:diamond"
+    }
+  }

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12CF9B324F60D4F0",
+    "68C1281FB03C43B8"
+  ],
+  "tasks": {
+    "7B136A2063AC8D45": {
+      "type": "heracles:item",
+      "item": "tfmg:cast_iron_distillation_controller"
+    },
+    "164583E7486CCA68": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "tfmg:cast_iron_distillation_output"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Less advanced Distillation",
+    "description": [
+      "<subtitle id=\"44C10544D23067F8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B136A2063AC8D45\" quest=\"44C10544D23067F8\"/>",
+      "<task task=\"164583E7486CCA68\" quest=\"44C10544D23067F8\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:empty_blaze_burner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Distill some products further"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          -240
+        ]
+      }
+    }
+  }
+}

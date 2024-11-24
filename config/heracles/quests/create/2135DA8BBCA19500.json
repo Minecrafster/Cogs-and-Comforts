@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "56FBD6321A6A73E7"
+  ],
+  "tasks": {
+    "69F5CFA2E9D63AA3": {
+      "type": "heracles:item",
+      "item": "tfmg:ingot_mold",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "351D717058229C72": {
+      "type": "heracles:item",
+      "item": "tfmg:casting_spout",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "009FAD4A9DD77266": {
+      "type": "heracles:item",
+      "item": "tfmg:casting_basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Build a cast setup"
+    },
+    "description": [
+      "<subtitle id=\"2135DA8BBCA19500\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"351D717058229C72\" quest=\"2135DA8BBCA19500\"/>",
+      "<task task=\"009FAD4A9DD77266\" quest=\"2135DA8BBCA19500\"/>",
+      "<task task=\"69F5CFA2E9D63AA3\" quest=\"2135DA8BBCA19500\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:ingot_mold",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prepare for the cast"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

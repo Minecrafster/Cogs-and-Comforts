@@ -1,0 +1,28 @@
+{
+    "key": "scarlatite_gold",
+    "category": "metal",
+    "primary": 7,
+    "secondary": 4.6,
+    "tertiary": 1,
+    "durability": 38,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 168,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 16,
+    "tints": {
+        "glyph": "c84300",
+        "texture": "c84300"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [ "goldenglitter:scarlatite_gold_ingot" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

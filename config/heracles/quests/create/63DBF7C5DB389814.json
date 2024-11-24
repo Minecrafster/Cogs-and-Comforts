@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44C10544D23067F8"
+  ],
+  "tasks": {
+    "5AC09EBE751C2246": {
+      "type": "heracles:item",
+      "item": "tfmg:lubrication_oil_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:lubrication_oil_bucket",
+    "description": [
+      "<task task=\"5AC09EBE751C2246\" quest=\"63DBF7C5DB389814\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:lubrication_oil_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -208
+        ]
+      }
+    }
+  }
+}

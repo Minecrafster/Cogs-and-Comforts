@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "cobalt": {
+      "type": "heracles:item",
+      "item": "simplecobalt:cobalt_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "While softer than iron on its own, cobalt can form many tough alloys. It is found deep underground.",
+      "<hr/>",
+      "<task task = 'cobalt' quest = 'cobalt'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          104,
+          24
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simplecobalt:cobalt_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cobalt"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

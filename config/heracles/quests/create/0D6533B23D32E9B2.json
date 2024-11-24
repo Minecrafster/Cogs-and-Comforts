@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2B24002ED41EAE9B"
+  ],
+  "tasks": {
+    "4B55F015CC626CDF": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "A new step towards automation",
+    "description": [
+      "<subtitle id=\"0D6533B23D32E9B2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4B55F015CC626CDF\" quest=\"0D6533B23D32E9B2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Assemble a precision mechanism"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    }
+  }
+}

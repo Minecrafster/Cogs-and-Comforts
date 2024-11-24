@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "32AD68C5C1D30ADF"
+  ],
+  "tasks": {
+    "72B3E18D0D6F48AA": {
+      "type": "heracles:item",
+      "item": "createaddition:connector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "It's can take less current"
+    },
+    "description": [
+      "<subtitle id=\"594AFB5182B666A8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"72B3E18D0D6F48AA\" quest=\"594AFB5182B666A8\"/>",
+      "<hr/>",
+      "You might not understand what 'Free Chocolate' means. Don't worry, it's and inside joke and basically means there is no meme behind it. Spread the word.",
+      "<br/>",
+      "Also, according to mcmod.cn, small connectors allow a rate of 1KFe/tick while large ones allow 5KFe/tick"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Low Capacity Relay Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

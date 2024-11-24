@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "56FBD6321A6A73E7"
+  ],
+  "tasks": {
+    "155EB665A3B0A2E5": {
+      "type": "heracles:item",
+      "item": "tfmg:fireproof_bricks",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "27D2B8A0A50BE944": {
+      "type": "heracles:item",
+      "item": "tfmg:fireproof_brick_reinforcement",
+      "amount": 12,
+      "collection": "AUTOMATIC"
+    },
+    "1E7A7D44E13261E6": {
+      "type": "heracles:item",
+      "item": "tfmg:blast_furnace_output",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Obtain the materials to build a Blast Furnace"
+    },
+    "description": [
+      "<subtitle id=\"4F202494853473CB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"155EB665A3B0A2E5\" quest=\"4F202494853473CB\"/>",
+      "<task task=\"27D2B8A0A50BE944\" quest=\"4F202494853473CB\"/>",
+      "<task task=\"1E7A7D44E13261E6\" quest=\"4F202494853473CB\"/>",
+      "<hr/>",
+      "You can make one larger than the size in the ponder screen. Larger ones are more efficient."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:blast_furnace_output",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Blast Furnace"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

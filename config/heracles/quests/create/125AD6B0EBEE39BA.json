@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D6533B23D32E9B2"
+  ],
+  "tasks": {
+    "7C50B79301FCF6E8": {
+      "type": "heracles:item",
+      "item": "create_jetpack:jetpack",
+      "nbt": {
+        "Air": 900
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "We have elytra at home",
+    "description": [
+      "<subtitle id=\"125AD6B0EBEE39BA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C50B79301FCF6E8\" quest=\"125AD6B0EBEE39BA\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create_jetpack:jetpack"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Wooh, jetpack!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          0
+        ]
+      }
+    }
+  }
+}

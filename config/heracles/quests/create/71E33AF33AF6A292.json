@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "41546DDE9B5E95B4"
+  ],
+  "tasks": {
+    "58800B29AFA9EF3E": {
+      "type": "heracles:item",
+      "item": "create_high_pressure:graphite_powder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "This opens up a new possibility."
+    },
+    "description": [
+      "<task task=\"58800B29AFA9EF3E\" quest=\"71E33AF33AF6A292\"/>",
+      "<hr/>",
+      "If we heat coal enough, maybe we can purify it into pure Carbon."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Graphite Powder"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

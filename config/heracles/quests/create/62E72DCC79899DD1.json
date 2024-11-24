@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D6533B23D32E9B2"
+  ],
+  "tasks": {
+    "22BBD8A0AEB1B52E": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Let me do it for you 2.0",
+    "description": [
+      "<subtitle id=\"62E72DCC79899DD1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"22BBD8A0AEB1B52E\" quest=\"62E72DCC79899DD1\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    },
+    "subtitle": {
+      "text": "Craft a mechanical arm"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          400,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "0D6533B23D32E9B2",
+    "7BAD33B6A850DC74"
+  ],
+  "tasks": {
+    "378683E889466ACA": {
+      "type": "heracles:item",
+      "item": "create:track_station",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "16AF4ADD1216504C": {
+      "type": "heracles:item",
+      "item": "create:railway_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5F86A162ABC86F15": {
+      "type": "heracles:item",
+      "item": "create:track",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1BD593865B8BCC60": {
+      "type": "heracles:item",
+      "item": "create:controls",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "463F5334D9B80FF1": {
+      "title": "I wonder what this button does",
+      "icon": {
+        "item": {
+          "id": "bellsandwhistles:metal_pilot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "/damage @p 999 create:run_over by @p",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Famous last words"
+    },
+    "description": [
+      "<subtitle id=\"1511424DD83AF426\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"378683E889466ACA\" quest=\"1511424DD83AF426\"/>",
+      "<task task=\"5F86A162ABC86F15\" quest=\"1511424DD83AF426\"/>",
+      "<task task=\"16AF4ADD1216504C\" quest=\"1511424DD83AF426\"/>",
+      "<task task=\"1BD593865B8BCC60\" quest=\"1511424DD83AF426\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"463F5334D9B80FF1\" quest=\"1511424DD83AF426\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "There are no trains in minecraft"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

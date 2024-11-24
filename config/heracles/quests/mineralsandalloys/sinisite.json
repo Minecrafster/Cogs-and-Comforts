@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "sinisite": {
+      "type": "heracles:item",
+      "item": "fusion:sinisite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The hardest and most durable material, forged with a magical metal and a very tough mineral. Dominates with raw stats.",
+      "<hr/>",
+      "<task task = 'sinisite' quest = 'sinisite'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          80,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fusion:sinisite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sinisite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

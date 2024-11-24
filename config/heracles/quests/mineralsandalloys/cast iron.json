@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "cast iron": {
+      "type": "heracles:item",
+      "item": "tfmg:cast_iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A variation of iron with more carbon. It is harder yet more brittle, and can be made into more industrial parts.",
+      "<hr/>",
+      "<task task = 'cast iron' quest = 'cast iron'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          104,
+          56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:cast_iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cast Iron"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

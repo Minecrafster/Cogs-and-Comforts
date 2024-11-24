@@ -1,0 +1,70 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2137B9BA3F5FC6A1": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1C582989204C1223": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "74B67635AAE6F458": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "So, you've just obtained your first andesite alloy"
+    },
+    "description": [
+      "<subtitle id=\"0A7EAEF0C47B5473\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2137B9BA3F5FC6A1\" quest=\"0A7EAEF0C47B5473\"/>",
+      "<hr/>",
+      "It may not seem like much, but the andesite alloy is the foundation of create.",
+      "<br/>",
+      "By the way, have you checked your JEI? Are you lost at all the things in the world? Don't worry, the blueprint is here to walk you through all the machines you can create and use to your advantage!",
+      "<br/>",
+      "Also you found some free andesite in the corner when you found this blueprint. Use them well.",
+      "<hr/>",
+      "<reward reward=\"1C582989204C1223\" quest=\"0A7EAEF0C47B5473\"/>",
+      "<reward reward=\"74B67635AAE6F458\" quest=\"0A7EAEF0C47B5473\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Getting started with Create"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

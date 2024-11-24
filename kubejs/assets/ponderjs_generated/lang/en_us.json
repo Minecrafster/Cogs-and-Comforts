@@ -1,0 +1,19 @@
+{
+  "kubejs.ponder.tag.tconstruct_at_home": "Melting, Casting and Alloying",
+  "kubejs.ponder.tag.tconstruct_at_home.description": "Components related to melting, casting, and combining metals.",
+  "kubejs.ponder.advanced_melting_and_casting.header": "Advanced Melting and Casting",
+  "kubejs.ponder.advanced_melting_and_casting.text_1": "Some metals\u0027 melting point is too high for normal blazes",
+  "kubejs.ponder.advanced_melting_and_casting.text_2": "To melt them, a seething blaze burner is required.",
+  "kubejs.ponder.advanced_melting_and_casting.text_3": "Metals that require superheating to melt can not be poured regularly",
+  "kubejs.ponder.advanced_melting_and_casting.text_4": "A casting spout and casting basin is needed.",
+  "kubejs.ponder.advanced_melting_and_casting.text_5": "The mold will be kept unless the casting basin is broken",
+  "kubejs.ponder.advanced_melting_and_casting.text_6": "Ingots that can be poured using a spout cool down faster",
+  "kubejs.ponder.melting_and_pouring.header": "Melting and Pouring Metals",
+  "kubejs.ponder.melting_and_pouring.text_1": "You can melt metals in basins.",
+  "kubejs.ponder.melting_and_pouring.text_2": "To melt them, use a mixer and a blaze burner.",
+  "kubejs.ponder.melting_and_pouring.text_3": "Molten metal can pe poured back into ingots.",
+  "kubejs.ponder.melting_and_pouring.text_4": "A spout and an ingot mold is needed for this.",
+  "kubejs.ponder.melting_and_pouring.text_5": "The mold will be consumed when using this method",
+  "kubejs.ponder.melting_metals.header": "Melting Metals",
+  "kubejs.ponder.our_first_scene.header": "Example scene for paper with structure"
+}

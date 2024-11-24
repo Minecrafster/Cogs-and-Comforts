@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4D9449175AA9FEE0",
+    "6C3DCF361B4B8275"
+  ],
+  "tasks": {
+    "1AAC309001138ABE": {
+      "type": "heracles:item",
+      "item": "tfmg:heavy_machinery_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:heavy_machinery_casing",
+    "description": [
+      "<subtitle id=\"5B5FC6052C388844\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1AAC309001138ABE\" quest=\"5B5FC6052C388844\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:heavy_machinery_casing"
+    },
+    "subtitle": {
+      "text": "Apply steel and more steel to hardened planks"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          336,
+          -144
+        ]
+      }
+    }
+  }
+}

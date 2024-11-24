@@ -1,0 +1,58 @@
+{
+    "replace": true,
+    "slots": [
+        "bow/riser"
+    ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "materials": [
+                "tetra:wood/"
+            ],
+            "key": "optics/",
+            "effects": {
+                "zoom": 6,
+                "focus": [
+                    0,
+                    0.5
+                ],
+                "criticalStrike":[
+                    100,
+                    2
+                ]
+            },
+            "integrity": -1,
+            "durability": 10,
+            "extract": {
+                "primaryEffects": {
+                    "zoom": 3.4,
+                    "focus": [
+                        0,
+                        -0.02
+                    ]
+                },
+                "tertiaryEffects": {
+                    "zoom": -0.7,
+                    "focus": [
+                        0,
+                        0.08
+                    ]
+                },
+                "durability": 0.2,
+                "glyph": {
+                    "textureX": 120,
+                    "textureY": 112
+                },
+                "availableTextures": [
+                    "default"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/bow/riser/sight/",
+                        "type": "static"
+                    }
+                ]
+            }
+        }
+    ]
+}

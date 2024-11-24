@@ -1,0 +1,27 @@
+{
+    "key" : "adamantium",
+    "category" : "metal",
+    "primary" : 6.0,
+    "secondary" : 4.5,
+    "tertiary" : 3.0,
+    "durability" : 1150.0,
+    "integrityCost" : 2,
+    "integrityGain" : 2,
+    "magicCapacity" : 24,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 14,
+    "tints" : {
+      "glyph" : "adff86",
+      "texture" : "adff86"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simpleores:adamantium_ingot" ]
+    },
+    "attributes": {
+      "generic.attack_knockback": 0.15
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

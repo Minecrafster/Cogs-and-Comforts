@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "1511424DD83AF426"
+  ],
+  "tasks": {
+    "1FFF54798DF52103": {
+      "advancements": [
+        "create:conductor"
+      ],
+      "type": "heracles:advancement"
+    },
+    "34B3ABD51D2E8D22": {
+      "type": "heracles:item",
+      "item": "create:schedule",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft a train schedule and give it to a driver"
+    },
+    "description": [
+      "<subtitle id=\"039D9500C4FE8995\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"34B3ABD51D2E8D22\" quest=\"039D9500C4FE8995\"/>",
+      "<task task=\"1FFF54798DF52103\" quest=\"039D9500C4FE8995\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schedule",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

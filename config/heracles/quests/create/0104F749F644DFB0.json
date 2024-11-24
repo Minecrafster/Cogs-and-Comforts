@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F58CD6F2AC3F1F9"
+  ],
+  "tasks": {
+    "494971471B3230F5": {
+      "type": "heracles:item",
+      "item": "tfmg:gasoline_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:gasoline_bucket",
+    "description": [
+      "<task task=\"494971471B3230F5\" quest=\"0104F749F644DFB0\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:gasoline_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "2053C974C4ECB633": {
+      "type": "heracles:item",
+      "item": "sliceanddice:slicer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "07E5246E5AC59291": {
+      "item": {
+        "id": "farmersdelight:iron_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft the slicer"
+    },
+    "description": [
+      "<subtitle id=\"777BA087B8BB0F03\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2053C974C4ECB633\" quest=\"777BA087B8BB0F03\"/>",
+      "<hr/>",
+      "The Slicer allows automated chopping of Farmer's Delight Recipes.",
+      "<br/>",
+      "While examining its blueprint you find an iron knife within the folds. How did you miss that?",
+      "<hr/>",
+      "<reward reward=\"07E5246E5AC59291\" quest=\"777BA087B8BB0F03\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sliceanddice:slicer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Slice and Dice"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

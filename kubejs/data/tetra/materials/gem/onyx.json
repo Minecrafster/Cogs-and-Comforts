@@ -1,0 +1,29 @@
+{
+    "key": "onyx",
+    "category": "gem",
+    "primary": 8,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 3280,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "414141",
+        "texture": "414141"
+    },
+    "textures": [
+        "crude"
+    ],
+    "material": {
+        "items": [ "simpleores:onyx_gem" ]
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

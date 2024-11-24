@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "silver": {
+      "type": "heracles:item",
+      "item": "onlysilver:silver_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Silver is a silver(color) soft and conductive metal. It can be made into alloys to make it more durable or conductive.",
+      "<hr/>",
+      "<task task = \"silver\" quest = \"silver\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          152,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "onlysilver:silver_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Silver"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

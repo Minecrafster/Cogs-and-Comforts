@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "434E69C643EEB297"
+  ],
+  "tasks": {
+    "7BFB39E79575B11E": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "A bit of electrification shock",
+    "description": [
+      "<subtitle id=\"309A07C09AC4B728\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7BFB39E79575B11E\" quest=\"309A07C09AC4B728\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    },
+    "subtitle": {
+      "text": "Obtain an electron tube"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          0
+        ]
+      }
+    }
+  }
+}

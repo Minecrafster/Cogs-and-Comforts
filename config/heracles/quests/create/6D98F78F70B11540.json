@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "63DBF7C5DB389814",
+    "03C07CF7A2796632"
+  ],
+  "tasks": {
+    "31C86065D3A6317A": {
+      "type": "heracles:item",
+      "item": "tfmg:turbine_engine_back",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "59D2D4363F50EDFB": {
+      "type": "heracles:item",
+      "item": "tfmg:turbine_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"59D2D4363F50EDFB\" quest=\"6D98F78F70B11540\"/>",
+      "<task task=\"31C86065D3A6317A\" quest=\"6D98F78F70B11540\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          528,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:turbine_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kerosene Engine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

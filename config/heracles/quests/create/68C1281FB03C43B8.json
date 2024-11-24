@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F58CD6F2AC3F1F9"
+  ],
+  "tasks": {
+    "5BA1D5AAE3AD8224": {
+      "type": "heracles:item",
+      "item": "tfmg:naphtha_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:naphtha_bucket",
+    "description": [
+      "<task task=\"5BA1D5AAE3AD8224\" quest=\"68C1281FB03C43B8\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:naphtha_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          -192
+        ]
+      }
+    }
+  }
+}

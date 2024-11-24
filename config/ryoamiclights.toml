@@ -1,0 +1,167 @@
+
+[light_sources]
+	water_sensitive_check = true
+	block_entities = true
+	entities = true
+	self = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				axolotl = true
+				bee = true
+				egg = true
+				arrow = true
+				cow = true
+				pig = true
+				allay = true
+				skeleton = true
+				llama = true
+				frog = true
+				bat = true
+				hoglin = true
+				camel = true
+				rabbit = true
+				firework_rocket = true
+				silverfish = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				stray = true
+				turtle = true
+				salmon = true
+				wandering_trader = true
+				wither_skeleton = true
+				vex = true
+				goat = true
+				ocelot = true
+				furnace_minecart = true
+				item_frame = true
+				vindicator = true
+				horse = true
+				phantom = true
+				minecart = true
+				ender_dragon = true
+				evoker = true
+				spectral_arrow = true
+				llama_spit = true
+				warden = true
+				glow_squid = true
+				squid = true
+				snowball = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				ravager = true
+				trader_llama = true
+				donkey = true
+				evoker_fangs = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				zombified_piglin = true
+				area_effect_cloud = true
+				piglin = true
+				cat = true
+				zombie = true
+				ender_pearl = true
+				guardian = true
+				ghast = true
+				sheep = true
+				player = true
+				pufferfish = true
+				illusioner = true
+				potion = true
+				wither_skull = true
+				wolf = true
+				villager = true
+				zombie_villager = true
+				elder_guardian = true
+				boat = true
+				polar_bear = true
+				strider = true
+				cave_spider = true
+				cod = true
+				witch = true
+				spider = true
+				wither = true
+
+			[light_sources.settings.entities.tetra]
+				thrown_modular_item = true
+
+			[light_sources.settings.entities.bakery]
+				wandering_baker = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
+				wandering_winemaker = true
+
+			[light_sources.settings.entities.twigs]
+				pebble = true
+
+			[light_sources.settings.entities.beachparty]
+				coconut = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+
+			[light_sources.settings.entities.projecte]
+				water_projectile = true
+
+			[light_sources.settings.entities.quark]
+				shiba = true
+				toretoise = true
+				glass_frame = true
+				stoneling = true
+				foxhound = true
+				crab = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				stationary_contraption = true
+				contraption = true
+				super_glue = true
+				potato_projectile = true
+
+			[light_sources.settings.entities.tfmg]
+				green_spark = true
+				copper_grenade = true
+				thermite_grenade = true
+				spark = true
+				blue_spark = true
+				zin_grenade = true
+
+			[light_sources.settings.entities.doapi]
+				chair = true
+
+			[light_sources.settings.entities.bloomingnature]
+				deer = true
+				boar = true
+				raccoon = true
+				red_wolf = true
+				squirrel = true
+				owl = true
+				turkey = true
+				muddy_pig = true
+				wandering_gardener = true
+				pelican = true
+				bison = true
+
+			[light_sources.settings.entities.neapolitan]
+				chimpanzee = true
+				banana_peel = true
+
+			[light_sources.settings.entities.meadow]
+				brown_bear = true
+				wooly_cow = true
+				water_buffalo = true
+

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "06954739C61FAFCB"
+  ],
+  "tasks": {
+    "7DF87AC22FB06CE2": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_distillation_controller"
+    },
+    "7006371A4B0B1450": {
+      "type": "heracles:item",
+      "amount": 5,
+      "item": "tfmg:industrial_pipe"
+    },
+    "11D7A20DC67FD4C7": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "tfmg:steel_distillation_output"
+    },
+    "56A3A96A18EC96F1": {
+      "type": "heracles:item",
+      "amount": 48,
+      "item": "tfmg:steel_fluid_tank"
+    },
+    "55B37C342716F06F": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "create:blaze_burner"
+    }
+  },
+  "rewards": {
+    "6160B97390D55225": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 32
+    }
+  },
+  "display": {
+    "title": "Fractional Distillation",
+    "description": [
+      "<subtitle id=\"5F58CD6F2AC3F1F9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7DF87AC22FB06CE2\" quest=\"5F58CD6F2AC3F1F9\"/>",
+      "<task task=\"7006371A4B0B1450\" quest=\"5F58CD6F2AC3F1F9\"/>",
+      "<task task=\"11D7A20DC67FD4C7\" quest=\"5F58CD6F2AC3F1F9\"/>",
+      "<task task=\"56A3A96A18EC96F1\" quest=\"5F58CD6F2AC3F1F9\"/>",
+      "<task task=\"55B37C342716F06F\" quest=\"5F58CD6F2AC3F1F9\"/>",
+      "<hr/>",
+      "Takes more than a 1x1 tank to work properly. Minimum size is 2x2x12 to distill properly, but can be larger.",
+      "<hr/>",
+      "<reward reward=\"6160B97390D55225\" quest=\"5F58CD6F2AC3F1F9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Prepare the materials for a distillation plant"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "tungsten steel": {
+      "type": "heracles:item",
+      "item": "simpletungsten:tungsten_steel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An alloy of tungsten, steel and tin. Not only is it great at penetrating armour, but also sending projectiles through enemies as well.",
+      "<hr/>",
+      "<task task = 'tungsten steel' quest = 'tungsten steel'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          152,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simpletungsten:tungsten_steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tungsten Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

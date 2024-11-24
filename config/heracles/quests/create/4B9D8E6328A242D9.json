@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "0D6533B23D32E9B2",
+    "7BAD33B6A850DC74"
+  ],
+  "tasks": {
+    "56C0A14D33EE675B": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:drilling_machine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "06EED585FFE1AA33": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:vein_finder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "05ED574BD4614B7F": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:drill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Prepare a drill for extracting infinite ores"
+    },
+    "description": [
+      "<subtitle id=\"4B9D8E6328A242D9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"56C0A14D33EE675B\" quest=\"4B9D8E6328A242D9\"/>",
+      "<task task=\"06EED585FFE1AA33\" quest=\"4B9D8E6328A242D9\"/>",
+      "<task task=\"05ED574BD4614B7F\" quest=\"4B9D8E6328A242D9\"/>",
+      "<hr/>",
+      "These machines are incredibly powerful, yet require loads of SU to run at a reasonable rate. "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          400,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createoreexcavation:drilling_machine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Tapping the crust"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "604D32F3D812A227",
+    "0E3FDD6F90ED5551"
+  ],
+  "tasks": {
+    "LGFE": {
+      "type": "heracles:item",
+      "item": "tfmg:low_grade_fuel_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Utilize a low grade fuel engine to convert excess creosote into SU"
+    },
+    "description": [
+      "<subtitle id=\"low_grade_fuel_engine\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task = \"LGFE\" quest = \"low_grade_fuel_engine\"/>",
+      "<hr/>",
+      "Ever wonder what to do with the unforgiving amount of creosote? You can convert them into SU with this cheap engine!"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:low_grade_fuel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Low Grade Fuel Egine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

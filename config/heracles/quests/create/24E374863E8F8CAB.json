@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B9D8E6328A242D9"
+  ],
+  "tasks": {
+    "6BCAB28F52D30864": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:extractor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: createoreexcavation:extractor",
+    "description": [
+      "<subtitle id=\"24E374863E8F8CAB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BCAB28F52D30864\" quest=\"24E374863E8F8CAB\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:extractor"
+    },
+    "subtitle": {
+      "text": "It extracts fluid"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          400,
+          208
+        ]
+      }
+    }
+  }
+}

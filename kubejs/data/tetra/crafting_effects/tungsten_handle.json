@@ -1,0 +1,35 @@
+{
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:craft_type",
+                "craft": "module"
+            },
+            {
+                "type": "tetra:material",
+                "material": {
+                    "items": [
+                        "simpletungsten:tungsten_ingot"
+                    ]
+                }
+            },
+            {
+                "type": "tetra:slot",
+                "slot": "single/handle"
+            },
+            {
+                "type": "tetra:aspect",
+                "aspect": "throwable"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetra:apply_improvements",
+            "improvements": {
+                "piercing":3
+            }
+        }
+    ]
+}

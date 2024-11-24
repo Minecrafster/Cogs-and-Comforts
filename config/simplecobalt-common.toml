@@ -1,0 +1,17 @@
+
+[General]
+	#Add SimpleCobalt items to chest loot?
+	AddModLootToChests = true
+	#Enable fusion recycling of cobalt items?
+	EnableRecycling = true
+
+[Recipes]
+	#false disables recipes
+	EnableCobaltRecipes = true
+	#false disables recipes
+	EnableBlueCeladonRecipes = true
+	#false disables recipes
+	EnableBlueDriftSteelRecipes = true
+	#false disables recipes
+	EnableGreenCeladonRecipes = true
+

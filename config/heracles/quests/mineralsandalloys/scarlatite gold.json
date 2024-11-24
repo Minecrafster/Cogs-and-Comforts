@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "scarlatite gold": {
+      "type": "heracles:item",
+      "item": "goldenglitter:scarlatite_gold_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An alloy of gold and more redstone. It's block emits redstone signals",
+      "<hr/>",
+      "<task task = 'scarlatite gold' quest = 'scarlatite gold'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          152,
+          104
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "goldenglitter:scarlatite_gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scarlatite Gold"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,193 @@
+Platform.mods.kubejs.name = 'Cogs and Comforts'
+//Platform.mods.simpleores.name = 'SimpleOres:Fusion'
+//Platform.mods.simpletungsten.name = 'SimpleOres:Fusion'
+//Platform.mods.onlysilver.name = 'SimpleOres:Fusion'
+
+StartupEvents.registry('fluid',event => {
+    //Self Explanatory
+    event.create('molten_iron')
+    .thickTexture(0xFF5900)
+    .bucketColor(0xFF5900)
+    .displayName('Molten Iron')
+    .temperature(1200)
+
+    event.create('molten_netherite')
+    .thickTexture(0x515151)
+    .bucketColor(0x515151)
+    .displayName('Molten Netherite')
+    .temperature(3200)
+
+    event.create('molten_aluminum')
+    .thickTexture(0xB1C1C1)
+    .bucketColor(0xB1C1C1)
+    .displayName('Molten Aluminum')
+    .temperature(3200)
+
+    event.create('molten_raw_netherite')
+    .thickTexture(0x5e443a)
+    .bucketColor(0x5e443a)
+    .displayName('Molten Unrefined Netherite')
+    .temperature(3200)
+
+    event.create('molten_cast_iron')
+    .thickTexture(0xFF5900)
+    .bucketColor(0xFF5900)
+    .displayName('Molten Cast Iron')
+    .temperature(1200)
+
+    event.create('molten_copper')
+    .thickTexture(0xFF9B35)
+    .bucketColor(0xFF9B35)
+    .displayName('Molten Copper')
+    .temperature(800)
+
+    event.create('molten_tin')
+    .thickTexture(0xFFFBED)
+    .bucketColor(0xFFFBED)
+    .displayName('Molten Tin')
+    .temperature(800)
+
+    event.create('molten_zinc')
+    .thickTexture(0xEBF7F1)
+    .bucketColor(0xEBF7F1)
+    .displayName('Molten Zinc')
+    .temperature(800)
+
+    event.create('molten_brass')
+    .thickTexture(0xF5BE1B)
+    .bucketColor(0xF5BE1B)
+    .displayName('Molten Brass')
+    .temperature(800)
+
+    event.create('molten_bronze')
+    .thickTexture(0xDE8F07)
+    .bucketColor(0xDE8F07)
+    .displayName('Molten Bronze')
+    .temperature(800)
+
+    event.create('molten_gold')
+    .thickTexture(0xFFE600)
+    .bucketColor(0xFFE600)
+    .displayName('Molten Gold')
+    .temperature(800)
+
+    event.create('molten_tungsten')
+    .thickTexture(0x616161)
+    .bucketColor(0x616161)
+    .displayName('Molten Tungsten')
+    .temperature(3200)
+
+    event.create('molten_silver')
+    .thickTexture(0xFFFFFF)
+    .bucketColor(0xFFFFFF)
+    .displayName('Molten Silver')
+    .temperature(800)
+
+    event.create('molten_adamantium')
+    .thickTexture(0xADFFB6)
+    .bucketColor(0xADFFB6)
+    .displayName('Molten Adamantium')
+    .temperature(3200)
+
+    event.create('molten_mythril')
+    .thickTexture(0xB6C9FC)
+    .bucketColor(0xB6C9FC)
+    .displayName('Molten Mythril')
+    .temperature(1200)
+
+    event.create('molten_thyrium')
+    .thickTexture(0x80FFEC)
+    .bucketColor(0x80FFEC)
+    .displayName('Molten Thyrium')
+    .temperature(3200)
+
+    event.create('molten_sinisite')
+    .thickTexture(0x7581FF)
+    .bucketColor(0x7581FF)
+    .displayName('Molten Sinisite')
+    .temperature(3200)
+
+    event.create('molten_prasinos')
+    .thickTexture(0x00DE07)
+    .bucketColor(0x00DE07)
+    .displayName('Molten Prasinos')
+    .temperature(3200)
+
+    event.create('molten_electrum')
+    .thickTexture(0xFAED75)
+    .bucketColor(0xFAED75)
+    .displayName('Molten Electrum')
+    .temperature(3200)
+
+    event.create('molten_tungsten_steel')
+    .thickTexture(0xB6C9FC)
+    .bucketColor(0xB6C9FC)
+    .displayName('Molten Tungsten Steel')
+    .temperature(3200)
+
+    event.create('molten_valfram')
+    .thickTexture(0xC42E00)
+    .bucketColor(0xC42E00)
+    .displayName('Molten Valfram')
+    .temperature(3200)
+
+    event.create('molten_black_silver')
+    .thickTexture(0x434444)
+    .bucketColor(0x434444)
+    .displayName('Molten Black Silver')
+    .temperature(1200)
+
+    event.create('molten_sterling_steel')
+    .thickTexture(0xC0E1E4)
+    .bucketColor(0xC0E1E4)
+    .displayName('Molten Sterling Steel')
+    .temperature(1200)
+
+    event.create('molten_cobalt')
+    .thickTexture(0x5E6A77)
+    .bucketColor(0x5E6A77)
+    .displayName('Molten Cobalt')
+    .temperature(1500)
+
+    event.create('molten_blue_drift_steel')
+    .thickTexture(0x568AC1)
+    .bucketColor(0x568AC1)
+    .displayName('Molten Blue Drift Steel')
+    .temperature(1500)
+
+    event.create('molten_blue_celadon')
+    .thickTexture(0x00C3FF)
+    .bucketColor(0x00C3FF)
+    .displayName('Molten Blue Celadon')
+    .temperature(1500)
+
+    event.create('molten_green_celadon')
+    .thickTexture(0x90A978)
+    .bucketColor(0x90A978)
+    .displayName('Molten Green Celadon')
+    .temperature(3200)
+
+    event.create('molten_rose_gold')
+    .thickTexture(0xEEB5A0)
+    .bucketColor(0xEEB5A0)
+    .displayName('Molten Rose Gold')
+    .temperature(800)
+
+    event.create('molten_scarlatite_gold')
+    .thickTexture(0xC84300)
+    .bucketColor(0xC84300)
+    .displayName('Molten Scarlatite Gold')
+    .temperature(800)
+
+    event.create('molten_hephaestan_gold')
+    .thickTexture(0xD06400)
+    .bucketColor(0xD06400)
+    .displayName('Molten Hephaestan Gold')
+    .temperature(800)
+
+    event.create('molten_erubescent_gold')
+    .thickTexture(0xFFA94B)
+    .bucketColor(0xFFA94B)
+    .displayName('Molten Erubescent Gold')
+    .temperature(800)
+})

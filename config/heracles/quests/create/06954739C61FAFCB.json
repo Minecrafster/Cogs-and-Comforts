@@ -1,0 +1,84 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24A3213E49AF870C",
+    "5B5FC6052C388844",
+    "7EBA34AD56F2F5FD"
+  ],
+  "tasks": {
+    "375B62DB41236FAE": {
+      "type": "heracles:item",
+      "item": "tfmg:pumpjack_hammer"
+    },
+    "666DEB462F446643": {
+      "type": "heracles:item",
+      "item": "tfmg:pumpjack_crank"
+    },
+    "24E9CD14CE4C8BAD": {
+      "type": "heracles:item",
+      "amount": 5,
+      "item": "tfmg:pumpjack_hammer_part"
+    },
+    "5E46AFF7CB8D60C9": {
+      "type": "heracles:item",
+      "item": "tfmg:pumpjack_hammer_connector"
+    },
+    "63BC3FF3F52F291A": {
+      "type": "heracles:item",
+      "item": "tfmg:pumpjack_base"
+    },
+    "666DDBCB6F670CF0": {
+      "type": "heracles:item",
+      "item": "tfmg:industrial_pipe"
+    },
+    "27770CF1086B898F": {
+      "type": "heracles:item",
+      "item": "tfmg:machine_input"
+    },
+    "6C9563AFC85D38F2": {
+      "type": "heracles:item",
+      "item": "tfmg:surface_scanner"
+    }
+  },
+  "rewards": {
+    "58744097CDF8D473": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 30
+    }
+  },
+  "display": {
+    "title": "USA, OPEN UP!",
+    "description": [
+      "<subtitle id=\"06954739C61FAFCB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"375B62DB41236FAE\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"666DEB462F446643\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"24E9CD14CE4C8BAD\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"5E46AFF7CB8D60C9\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"63BC3FF3F52F291A\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"666DDBCB6F670CF0\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"27770CF1086B898F\" quest=\"06954739C61FAFCB\"/>",
+      "<task task=\"6C9563AFC85D38F2\" quest=\"06954739C61FAFCB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"58744097CDF8D473\" quest=\"06954739C61FAFCB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:crude_oil_fluid_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Prepare materials for an expedition to find and extract oil"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          -128
+        ]
+      }
+    }
+  }
+}

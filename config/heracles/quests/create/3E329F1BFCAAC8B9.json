@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "039D9500C4FE8995"
+  ],
+  "tasks": {
+    "05D14E25C6C2C618": {
+      "type": "heracles:item",
+      "item": "createrailwaysnavigator:navigator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "View your train schedule and realize that the trains are surprisingly timely in minecraft."
+    },
+    "description": [
+      "<subtitle id=\"3E329F1BFCAAC8B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"05D14E25C6C2C618\" quest=\"3E329F1BFCAAC8B9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          496,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createrailwaysnavigator:navigator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Deutschbahn Shenanigans"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

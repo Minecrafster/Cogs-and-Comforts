@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "3FB097C20B5087E1"
+  ],
+  "tasks": {
+    "25E5FF2E5BBD5788": {
+      "type": "heracles:item",
+      "item": "createaddition:alternator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft an alternator"
+    },
+    "description": [
+      "<subtitle id=\"19DC385A0108BBBE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"25E5FF2E5BBD5788\" quest=\"19DC385A0108BBBE\"/>",
+      "<hr/>",
+      "This entire branch is optional, it just adds a nice 'modernish industry' feel. The Alternator generates 0.84KFe per rotation and the Motor costs 1.125KFe per rotation, so around a 30% SU loss for every conversion, plus the rate-limit."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -30,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:alternator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electrification 101"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

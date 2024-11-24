@@ -1,0 +1,24 @@
+{
+    "key" : "tungsten_steel",
+    "category" : "metal",
+    "primary" : 6.0,
+    "secondary" : 6.0,
+    "tertiary" : 1.0,
+    "durability" : 1680.0,
+    "integrityCost" : 2,
+    "integrityGain" : 7,
+    "magicCapacity" : 42,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 10,
+    "tints" : {
+      "glyph" : "b6c9fc",
+      "texture" : "b6c9fc"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simpletungsten:tungsten_steel_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

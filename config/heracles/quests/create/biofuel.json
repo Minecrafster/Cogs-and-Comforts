@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "straw"
+  ],
+  "tasks": {
+    "biofuel_bucket": {
+      "type": "heracles:item",
+      "item": "createaddition:bioethanol_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "createaddition:biomass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Biofuel"
+    },
+    "description": [
+      "<subtitle id=\"biofuel\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task = \"biofuel_bucket\" quest = \"biofuel\"/>",
+      "<hr/>",
+      "A bucket of Biofuel can SUPERHEAT a blaze burner for 20 minutes! And It's super easy to mass produce! ",
+      "",
+      "You just need a decently efficient seed farm, a decently efficient bamboo farm, a decently efficient sugarcane farm, a decently efficient cinder flour farm...and a bunch of crushing wheels, a press, 2 mixers, and a bunch more stuff to connect all of these together...",
+      "",
+      "Hey, at least you have builder's wand and projectE to help you! "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -335
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:biomass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blazes LOVE this awesome fuel!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

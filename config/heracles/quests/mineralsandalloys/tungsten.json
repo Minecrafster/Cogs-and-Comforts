@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "tungsten": {
+      "type": "heracles:item",
+      "item": "simpletungsten:tungsten_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Tungsten is a dark and brittle metal. However, it is a very hard and dense metal and can be formed into even harder and tougher alloys.",
+      "",
+      "Due to its density and hardness, blades and spears made from it and its alloys can pierce armour easily, and javelins with it as the handle can pierce multiple enemies before losing momentum. Talk about tungsten needles.",
+      "<hr/>",
+      "<task task = 'tungsten' quest = 'tungsten' />"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          128,
+          24
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simpletungsten:tungsten_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tungsten"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

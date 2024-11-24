@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F58CD6F2AC3F1F9"
+  ],
+  "tasks": {
+    "2179E8263C0BB136": {
+      "type": "heracles:item",
+      "item": "tfmg:kerosene_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:kerosene_bucket",
+    "description": [
+      "<task task=\"2179E8263C0BB136\" quest=\"03C07CF7A2796632\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:kerosene_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -176
+        ]
+      }
+    }
+  }
+}

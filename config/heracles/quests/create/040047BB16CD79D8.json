@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44C10544D23067F8"
+  ],
+  "tasks": {
+    "45339F1364A3436D": {
+      "type": "heracles:item",
+      "item": "tfmg:plastic_sheet"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:plastic_sheet",
+    "description": [
+      "<task task=\"45339F1364A3436D\" quest=\"040047BB16CD79D8\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:plastic_sheet"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          -288
+        ]
+      }
+    }
+  }
+}

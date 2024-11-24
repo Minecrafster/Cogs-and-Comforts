@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "041E36E3895ED300",
+    "3529CBB42FA1574A"
+  ],
+  "tasks": {
+    "27D1D85F92B1BA8B": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Why can't we make trumpets in this game",
+    "description": [
+      "<subtitle id=\"351CFD0433F826C5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"27D1D85F92B1BA8B\" quest=\"351CFD0433F826C5\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Obtain yout first Brass Ingot"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          80
+        ]
+      }
+    }
+  }
+}

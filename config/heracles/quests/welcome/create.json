@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "goggles": {
+      "title": "A pair of useful goggless",
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Immersive Steampunk Industry"
+    },
+    "description": [
+      "The create mod. You've probably heard about it. It's an immersive industry mod that starts with combining andesite with iron to make a tough rock and ends up with fully decked out trains and steam boilers.",
+      "",
+      "But there's more. This modpack includes quite a few sub-mods of create, greatly expanding the capabilities of create. For example, you can build a multiblock blast furnace structure, forge steel with it and craft machines with the produced steel to extract oil! Then you can refine the oil into fuels to power your machines, or synthetic materials that can be used in exciting ways.",
+      "",
+      "For a guide on how to get through the industrial branch check the quests under the 'Create' tab./7/ This will probably reworked in later versions./7/",
+      "<hr/>",
+      "<task task = 'check' quest = 'create'/>",
+      "<hr/>",
+      "<reward reward = 'goggles' quest = 'create'/>"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "The Create Mod"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

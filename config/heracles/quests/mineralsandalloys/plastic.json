@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "plastic": {
+      "type": "heracles:item",
+      "item": "tfmg:plastic_sheet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Plastic is a material derived from oil. It can be used to make durable strings.",
+      "<hr/>",
+      "<task task = 'plastic' quest = 'plastic'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          32,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:plastic_sheet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plastic"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

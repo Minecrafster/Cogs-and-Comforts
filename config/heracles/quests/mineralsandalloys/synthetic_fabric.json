@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "synthetic_fabric": {
+      "type": "heracles:item",
+      "item": "kubejs:synthetic_fabric",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Synthetic fabric is a type of very tough and durable cloth. It is a great material to wrap your weapons with. It's recipe has been greatly simplified in this modpack.",
+      "<hr/>",
+      "<task task = 'synthetic_fabric' quest = 'synthetic_fabric'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          56,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:synthetic_fabric",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Synthetic Fabric"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

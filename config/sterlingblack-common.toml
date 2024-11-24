@@ -1,0 +1,9 @@
+
+[General]
+	#Add Sterling and Black items to chest loot?
+	AddModLootToChests = true
+	#Enable fusion furnace recycling of sterling steel and black silver items
+	EnableRecycling = true
+	#Enable fusion furnace recycling of silver items
+	EnableSilverRecycling = true
+

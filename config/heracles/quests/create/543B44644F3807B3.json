@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "34C60972379A86A5"
+  ],
+  "tasks": {
+    "08935E5B0010E9FB": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Spout",
+    "description": [
+      "<subtitle id=\"543B44644F3807B3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"08935E5B0010E9FB\" quest=\"543B44644F3807B3\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    },
+    "subtitle": {
+      "text": "Craft the spout"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          160
+        ]
+      }
+    }
+  }
+}

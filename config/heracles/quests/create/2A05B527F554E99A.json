@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6C3DCF361B4B8275",
+    "604D32F3D812A227"
+  ],
+  "tasks": {
+    "5C908FA8EA3CC9AE": {
+      "type": "heracles:item",
+      "item": "tfmg:screwdriver"
+    },
+    "42DA79DEE79B7FA0": {
+      "type": "heracles:item",
+      "item": "tfmg:screw"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "No Bolts and Yes Scews",
+    "description": [
+      "<subtitle id=\"2A05B527F554E99A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5C908FA8EA3CC9AE\" quest=\"2A05B527F554E99A\"/>",
+      "<task task=\"42DA79DEE79B7FA0\" quest=\"2A05B527F554E99A\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:screwdriver"
+    },
+    "subtitle": {
+      "text": "Obtain screws and a screwdriver"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          336,
+          -96
+        ]
+      }
+    }
+  }
+}

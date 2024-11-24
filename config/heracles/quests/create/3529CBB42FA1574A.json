@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "0BB5BD961A116F36": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    },
+    "7B5E6406978042CE": {
+      "type": "heracles:item",
+      "item": "create:basin"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Mixer",
+    "description": [
+      "<subtitle id=\"3529CBB42FA1574A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0BB5BD961A116F36\" quest=\"3529CBB42FA1574A\"/>",
+      "<task task=\"7B5E6406978042CE\" quest=\"3529CBB42FA1574A\"/>",
+      "<hr/>",
+      "You can check the recipe and materials needed through the EMI crafting tree function."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    },
+    "subtitle": {
+      "text": "Obtain the Mechanical Mixer and a Basin"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

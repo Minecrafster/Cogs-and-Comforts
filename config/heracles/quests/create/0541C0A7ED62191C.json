@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "63DBF7C5DB389814",
+    "0104F749F644DFB0"
+  ],
+  "tasks": {
+    "64D062BE85430D77": {
+      "type": "heracles:item",
+      "item": "tfmg:gasoline_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1DF0735839145D63": {
+      "type": "heracles:item",
+      "item": "tfmg:gasoline_engine_back",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Gather parts for a gasoline engine"
+    },
+    "description": [
+      "<subtitle id=\"0541C0A7ED62191C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"64D062BE85430D77\" quest=\"0541C0A7ED62191C\"/>",
+      "<task task=\"1DF0735839145D63\" quest=\"0541C0A7ED62191C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          528,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:gasoline_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Gasoline Engine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

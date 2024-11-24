@@ -1,0 +1,19 @@
+
+[General]
+	#Add SimpleTungsten items to chest loot?
+	AddModLootToChests = true
+	#Enable fusion recydling of tungsten items?
+	EnableRecycling = true
+
+[Recipes]
+	#false disables recipes
+	EnableTungstenRecipes = true
+	#false disables recipes
+	EnableTungstenCarbideRecipes = true
+	#false disables recipes
+	EnableTungstenSteelRecipes = true
+	#false disables recipes
+	EnableValframRecipes = true
+	#false disables recipes
+	EnablePrasinosRecipes = true
+

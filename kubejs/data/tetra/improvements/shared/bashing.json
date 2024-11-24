@@ -1,0 +1,16 @@
+[
+    {
+        "key": "bashing",
+        "level": 1,
+        "attributes": {
+            "generic.attack_knockback": 0.15
+        }
+    },
+    {
+        "key": "bashing",
+        "level": 2,
+        "attributes": {
+            "generic.attack_knockback": 0.3
+        }
+    }
+]

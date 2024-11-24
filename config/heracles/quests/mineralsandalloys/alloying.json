@@ -1,0 +1,70 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "check": {
+      "title": "Do you understand?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "Understood!",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Some tips about alloying"
+    },
+    "description": [
+      "Alloying is the process of materials to create new materials. It usually requires at least 1 metal. Melting and alloying is done through basins and mechanical mixers.",
+      "",
+      "<carousel index=\"0\">",
+      "    <carousel-item>",
+      "        <img src=\"kubejs:textures/melting.png\" width=\"200\" height=\"125\"/>",
+      "    </carousel-item>",
+      "    <carousel-item>",
+      "        <img src=\"kubejs:textures/alloying.png\" width=\"200\" height=\"125\"/>",
+      "    </carousel-item>",
+      "</carousel>",
+      "",
+      "Check the EMI screen or the ponder index for more info.",
+      "",
+      "/c/Due to how basins are coded, melting 2 metals in the same basin would NOT trigger the alloying recipe./c/",
+      "",
+      "/a/Instead, pump or pour the molten metals into a different basin and mix them there./a/",
+      "",
+      "<task task = 'check' quest = 'alloying'/>",
+      "<hr/>",
+      "<reward reward = 'xp' quest = 'alloying'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          -32,
+          56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alloying"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

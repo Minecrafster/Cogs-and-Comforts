@@ -1,0 +1,28 @@
+{
+    "key": "plastic_string",
+    "category": "fibre",
+    "primary": 1,
+    "secondary": 0.3,
+    "tertiary": 5,
+    "durability": 762,
+    "integrityCost": 2,
+    "integrityGain": 8,
+    "magicCapacity": 24,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+      "glyph": "d0cec8",
+      "texture": "d0cec8"
+    },
+    "textures": [
+      "default"
+    ],
+    "material": {
+      "items": [
+        "kubejs:plastic_string"
+      ]
+    },
+    "requiredTools": {
+      "cut": "minecraft:stone"
+    }
+  }

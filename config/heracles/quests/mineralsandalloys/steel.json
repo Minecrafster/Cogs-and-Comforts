@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "steel": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Iron with just the right amount of carbon in it, a much more durable alloy that is the most tedious to craft.",
+      "<hr/>",
+      "<task task = 'steel' quest = 'steel'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          128,
+          56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

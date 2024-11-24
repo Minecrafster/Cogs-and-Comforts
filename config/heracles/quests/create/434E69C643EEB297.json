@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41546DDE9B5E95B4"
+  ],
+  "tasks": {
+    "56A4902E4D08174D": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "create:mechanical_press"
+      ]
+    },
+    "19953BC149C6AD51": {
+      "type": "heracles:item",
+      "item": "create:iron_sheet"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "BONK",
+    "description": [
+      "<subtitle id=\"434E69C643EEB297\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"56A4902E4D08174D\" quest=\"434E69C643EEB297\"/>",
+      "<task task=\"19953BC149C6AD51\" quest=\"434E69C643EEB297\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:iron_sheet"
+    },
+    "subtitle": {
+      "text": "Press your first iron sheet in a mechanical press"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -144
+        ]
+      }
+    }
+  }
+}

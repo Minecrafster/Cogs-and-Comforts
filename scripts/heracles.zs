@@ -1,0 +1,1 @@
+craftingTable.addShapeless("heracles_book", <item:heracles:quest_book>, [<item:minecraft:blue_dye>, <item:minecraft:paper>]);

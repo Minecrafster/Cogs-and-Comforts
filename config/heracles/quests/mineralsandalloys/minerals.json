@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "diamond",
+    "quartz",
+    "onyx",
+    "lapis",
+    "redstone",
+    "emerald"
+  ],
+  "tasks": {
+    "check": {
+      "title": "Having collected all minerals",
+      "icon": {
+        "item": {
+          "id": "minecraft:cobbled_deepslate",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Minerals can be mined and smelted."
+    },
+    "description": [
+      "You decide to set out on a task to collect all the minerals in the world. ",
+      "",
+      "<task task = \"check\" quest = \"minerals\" />"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          0,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cobbled_deepslate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Minerals"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

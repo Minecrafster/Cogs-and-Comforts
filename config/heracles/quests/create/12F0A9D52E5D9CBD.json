@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12D7D2F001CD19FF"
+  ],
+  "tasks": {
+    "32D2DB0620BB627A": {
+      "type": "heracles:item",
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Even the most sturdy crumble",
+    "description": [
+      "<subtitle id=\"12F0A9D52E5D9CBD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"32D2DB0620BB627A\" quest=\"12F0A9D52E5D9CBD\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:powdered_obsidian"
+    },
+    "subtitle": {
+      "text": "Even the most sturdy rocks crumble with time...or a pair of crushing wheels"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          80
+        ]
+      }
+    }
+  }
+}

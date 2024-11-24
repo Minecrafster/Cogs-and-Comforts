@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "adamantium": {
+      "type": "heracles:item",
+      "item": "simpleores:adamantium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Adamantium is a tough rare metal found deep underground. It can be forged into even tougher alloys. ",
+      "",
+      "Blades and tips forged with it and its alloys will give extra melee knockback.",
+      "<hr/>",
+      "<task task = 'adamantium' quest = 'adamantium'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          80,
+          24
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simpleores:adamantium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adamantium"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

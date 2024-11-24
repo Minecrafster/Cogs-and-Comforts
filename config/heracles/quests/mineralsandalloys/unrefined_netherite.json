@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ancient_debris": {
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Ancient Debris can be found in the depth of this world. It is extremely tough. Combine it with gold to make an alloy that binds well with diamonds.",
+      "<hr/>",
+      "<task task = \"ancient_debris\" quest = \"unrefined_netherite\" />"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          56,
+          24
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Unrefined Netherite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

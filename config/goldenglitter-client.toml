@@ -1,0 +1,13 @@
+
+[General]
+	#Make Rose Gold blocks hideous?
+	MakeRoseHideous = false
+	#Make Erubescent Gold blocks sparkle?
+	MakeErubescentSparkle = true
+	#Make Scarlatite Gold blocks sparkle?
+	MakeScarlatiteSparkle = true
+	#Make Hephaestan Gold blocks sparkle?
+	MakeHephaestanSparkle = true
+	#Make Red Gold rails sparkle?
+	MakeRedGoldRailSparkle = true
+

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12F0A9D52E5D9CBD",
+    "543B44644F3807B3",
+    "2DA5B8EF367A78A0"
+  ],
+  "tasks": {
+    "1BDCB80334DDDB99": {
+      "type": "heracles:item",
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "This sheet do be sturdy",
+    "description": [
+      "<subtitle id=\"7BAD33B6A850DC74\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1BDCB80334DDDB99\" quest=\"7BAD33B6A850DC74\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:sturdy_sheet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Make a sturdy sheet"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "key" : "sterling_steel",
+    "category" : "metal",
+    "primary" : 5.0,
+    "secondary" : 4.0,
+    "tertiary" : 2.0,
+    "durability" : 660.0,
+    "integrityCost" : 2,
+    "integrityGain" : 3,
+    "magicCapacity" : 156,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 10,
+    "tints" : {
+      "glyph" : "c0e1e4",
+      "texture" : "c0e1e4"
+    },
+    "textures" : ["metal", "default" ],
+    "material" : {
+      "items" : [ "sterlingblack:sterling_steel_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    },
+    "attributes": {
+      "**generic.attack_speed":0.05
+    }
+  }

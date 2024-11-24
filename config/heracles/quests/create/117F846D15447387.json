@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473",
+    "026CC43E25F49BA8"
+  ],
+  "tasks": {
+    "115231325D07098F": {
+      "type": "heracles:item",
+      "item": "create:windmill_bearing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "100D73142C8994FA": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Is this the eye of a giant?"
+    },
+    "description": [
+      "<subtitle id=\"117F846D15447387\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"115231325D07098F\" quest=\"117F846D15447387\"/>",
+      "<hr/>",
+      "The windmill bearing is another cheap source of SU, capping out at 8192 SU each. They do take quite a bit of wool though.",
+      "<br/>",
+      "You ponder wool so much that some actually materialized. Maybe you shouldn't think into it.",
+      "<hr/>",
+      "<reward reward=\"100D73142C8994FA\" quest=\"117F846D15447387\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:windmill_bearing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Windmill Bearing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

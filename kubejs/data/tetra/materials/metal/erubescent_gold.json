@@ -1,0 +1,31 @@
+{
+    "key": "erubescent_gold",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 4.6,
+    "tertiary": 1,
+    "durability": 18,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 132,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 16,
+    "tints": {
+        "glyph": "ffa94b",
+        "texture": "ffa94b"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [ "goldenglitter:erubescent_gold_ingot" ]
+    },
+    "effects": {
+        "stabilizing": 5
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

@@ -1,0 +1,33 @@
+
+{
+    "replace": true,
+    "slots": [
+        "bow/riser"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 120,
+        "textureY": 112
+    },
+    "translation": {
+        "primaryEffects": {
+            "zoom": 3,
+            "focus": -1
+        },
+        "tertiaryEffects": {
+            "focus": 3,
+            "zoom": -1
+        },
+        "durability": 1
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/"
+            ],
+            "moduleKey": "bow/optics",
+            "moduleVariant": "optics/"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "diamond": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A very hard crystal. Can be used to make strong weapons and armour. Combines well with refined netherite alloy.",
+      "<hr/>",
+      "<task task = \"diamond\" quest = \"diamond\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          104,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

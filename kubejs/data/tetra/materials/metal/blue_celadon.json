@@ -1,0 +1,24 @@
+{
+    "key" : "blue_celadon",
+    "category" : "metal",
+    "primary" : 8.0,
+    "secondary" : 4.5,
+    "tertiary" : 1.0,
+    "durability" : 1740.0,
+    "integrityCost" : 2,
+    "integrityGain" : 2,
+    "magicCapacity" : 144,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 20,
+    "tints" : {
+      "glyph" : "00c0ff",
+      "texture" : "00c0ff"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simplecobalt:blue_celadon_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

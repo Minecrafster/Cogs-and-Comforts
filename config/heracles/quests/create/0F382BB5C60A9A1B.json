@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "351CFD0433F826C5",
+    "309A07C09AC4B728"
+  ],
+  "tasks": {
+    "2E7587A0087B1F6C": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Here before Mojang",
+    "description": [
+      "<subtitle id=\"0F382BB5C60A9A1B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2E7587A0087B1F6C\" quest=\"0F382BB5C60A9A1B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    },
+    "subtitle": {
+      "text": "Obtain a mechanical crafter"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6C3DCF361B4B8275"
+  ],
+  "tasks": {
+    "5B5E2DA66822098A": {
+      "type": "heracles:item",
+      "item": "tfmg:rebar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Rebar",
+    "description": [
+      "<subtitle id=\"5BDA3E407343CB09\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5B5E2DA66822098A\" quest=\"5BDA3E407343CB09\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:rebar"
+    },
+    "subtitle": {
+      "text": "Obtain Rebar"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          -240
+        ]
+      }
+    }
+  }
+}

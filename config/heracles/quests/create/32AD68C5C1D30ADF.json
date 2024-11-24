@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "44192307AE7AB469"
+  ],
+  "tasks": {
+    "49BE52F9E5C0453A": {
+      "type": "heracles:item",
+      "item": "createaddition:copper_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "You know what, this is now a real recipe"
+    },
+    "description": [
+      "<subtitle id=\"32AD68C5C1D30ADF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"49BE52F9E5C0453A\" quest=\"32AD68C5C1D30ADF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:copper_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lightning rod with extra steps"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

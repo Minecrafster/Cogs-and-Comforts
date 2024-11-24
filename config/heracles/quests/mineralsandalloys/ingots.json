@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "mythril",
+    "unrefined_netherite",
+    "cobalt",
+    "aluminum",
+    "gold",
+    "tungsten",
+    "tin",
+    "iron",
+    "copper",
+    "silver",
+    "adamantium",
+    "zinc"
+  ],
+  "tasks": {
+    "check": {
+      "title": "Collected all metals",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Metals can be mined, smelted and melted."
+    },
+    "description": [
+      "You set out on a quest to collect all the metals in the dictionary.",
+      "",
+      "<task task = 'check' quest = 'ingots'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Metals"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

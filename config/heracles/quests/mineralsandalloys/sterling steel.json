@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "sterling steel": {
+      "type": "heracles:item",
+      "item": "sterlingblack:sterling_steel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You can feel that it wants to go fast: it magically improves your attack speed when used in weapons and improves your movement as armour.",
+      "<hr/>",
+      "<task task = 'sterling steel' quest = 'sterling steel'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          56,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sterlingblack:sterling_steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sterling Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

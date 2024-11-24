@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "7BAD33B6A850DC74"
+  ],
+  "tasks": {
+    "72C183E6633B7B2F": {
+      "advancements": [
+        "create_enchantment_industry:blazes_new_job"
+      ],
+      "type": "heracles:advancement"
+    },
+    "77D56CC8F484B6C9": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:enchanting_guide",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "22EA6F26A131BB59": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft an enchantment guide"
+    },
+    "description": [
+      "<subtitle id=\"7536A2EF0EDA7B8E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77D56CC8F484B6C9\" quest=\"7536A2EF0EDA7B8E\"/>",
+      "<task task=\"72C183E6633B7B2F\" quest=\"7536A2EF0EDA7B8E\"/>",
+      "<hr/>",
+      "This unlocks the gates for Create Enchantment Industry, a mod where you can save your emeralds and consume XP instead.",
+      "<br/>",
+      "Do you know that enchantment guides can be duped due to a bug?",
+      "<hr/>",
+      "<reward reward=\"22EA6F26A131BB59\" quest=\"7536A2EF0EDA7B8E\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:enchanting_guide",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Elevated blaze functions"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

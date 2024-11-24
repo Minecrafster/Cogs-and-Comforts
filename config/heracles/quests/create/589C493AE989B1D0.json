@@ -1,0 +1,96 @@
+{
+  "dependencies": [
+    "2B24002ED41EAE9B",
+    "382D40020A42A99D",
+    "48646088BFEF28E1",
+    "79BF787CE9CA4A4E",
+    "6F7B4A96AE8BC744"
+  ],
+  "tasks": {
+    "5122AF018D37EBC9": {
+      "title": "The Tunnel Bore",
+      "type": "heracles:check"
+    },
+    "2E7DDE679AF1F2DC": {
+      "type": "heracles:item",
+      "item": "create:mechanical_plough",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "17F66DAE9EF1ED10": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill",
+      "amount": 12,
+      "collection": "AUTOMATIC"
+    },
+    "4C37B228646320F5": {
+      "type": "heracles:item",
+      "item": "create:deployer",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "36D35A52B9F0D2A7": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6DE0BAB93F55D8D7": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Build a tunnel bore"
+    },
+    "description": [
+      "<subtitle id=\"589C493AE989B1D0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5122AF018D37EBC9\" quest=\"589C493AE989B1D0\"/>",
+      "<task task=\"17F66DAE9EF1ED10\" quest=\"589C493AE989B1D0\"/>",
+      "<task task=\"2E7DDE679AF1F2DC\" quest=\"589C493AE989B1D0\"/>",
+      "<task task=\"36D35A52B9F0D2A7\" quest=\"589C493AE989B1D0\"/>",
+      "<task task=\"4C37B228646320F5\" quest=\"589C493AE989B1D0\"/>",
+      "<hr/>",
+      "The Tunnel Bore. A form of minecart contraption that drills its way through the land, no matter what's in its path.",
+      "<br/>",
+      "Only do the checkmark once you actually finish building it.",
+      "<br/>",
+      "You discover netherite while examining the finished machine. You are fairly certain it had never been to the nether.",
+      "<hr/>",
+      "<reward reward=\"6DE0BAB93F55D8D7\" quest=\"589C493AE989B1D0\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

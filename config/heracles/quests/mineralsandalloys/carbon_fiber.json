@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "carbon_fiber": {
+      "type": "heracles:item",
+      "item": "kubejs:carbon_fiber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Carbon Fiber is a very light yet strong and flexible material. It's recipe has been heavily simplified in this modpack.",
+      "<hr/>",
+      "<task task = 'carbon_fiber' quest = 'carbon_fiber'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          80,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:carbon_fiber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Carbon Fiber"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

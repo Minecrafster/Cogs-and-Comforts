@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "42D3D79B4BB62A5E"
+  ],
+  "tasks": {
+    "7913A16EF0A66632": {
+      "type": "heracles:item",
+      "item": "createaddition:large_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "55CEDEEF6418E2BE": {
+      "item": {
+        "id": "create:bar_of_chocolate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Free chocolate"
+    },
+    "description": [
+      "<subtitle id=\"6E7BC73432FF7567\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7913A16EF0A66632\" quest=\"6E7BC73432FF7567\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55CEDEEF6418E2BE\" quest=\"6E7BC73432FF7567\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          -336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:large_connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "High Capacity Relay Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

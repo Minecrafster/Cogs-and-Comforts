@@ -1,0 +1,30 @@
+[
+    {
+        "key": "piercing",
+        "level": 1,
+        "effects": {
+            "piercing": 1
+        }
+    },
+    {
+        "key": "piercing",
+        "level": 2,
+        "effects": {
+            "piercing": 2
+        }
+    },
+    {
+        "key": "piercing",
+        "level": 3,
+        "effects": {
+            "piercing": 3
+        }
+    },
+    {
+        "key": "piercing",
+        "level": 4,
+        "effects": {
+            "piercing": 4
+        }
+    }
+]

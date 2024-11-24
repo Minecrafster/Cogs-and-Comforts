@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "item": "create:zinc_ingot",
+      "emc": 128
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 0
+    },
+    {
+      "item": "create:andesite_casing",
+      "emc": 62
+    },
+    {
+      "item": "create:brass_casing",
+      "emc": 0
+    },
+    {
+      "item": "create:iron_sheet",
+      "emc": 0
+    },
+    {
+      "item": "createdeco:andesite_sheet",
+      "emc": 0
+    },
+    {
+      "item": "createdeco:zinc_sheet",
+      "emc": 0
+    },
+    {
+      "item": "createdeco:netherite_sheet",
+      "emc": 0
+    },
+    {
+      "item": "createdeco:industrial_iron_sheet",
+      "emc": 9
+    },
+    {
+      "item": "createaddition:zinc_sheet",
+      "emc": 0
+    },
+    {
+      "item": "create:golden_sheet",
+      "emc": 0
+    },
+    {
+      "item": "create:brass_sheet",
+      "emc": 0
+    },
+    {
+      "item": "create:copper_sheet",
+      "emc": 0
+    },
+    {
+      "item": "create:copper_casing",
+      "emc": 160
+    },
+    {
+      "item": "create:limestone",
+      "emc": 1
+    },
+    {
+      "item": "meadow:limestone",
+      "emc": 1
+    },
+    {
+      "item": "quark:limestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 648
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 520
+    },
+    {
+      "item": "tfmg:aluminum_ingot",
+      "emc": 128
+    },
+    {
+      "item": "simpleores:tin_ingot",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 2
+    },
+    {
+      "item": "create:andesite_alloy",
+      "emc": 30
+    },
+    {
+      "item": "create:crushing_wheel",
+      "emc": 0
+    },
+    {
+      "item": "#travelersbackpack:custom_travelers_backpack",
+      "emc": 0
+    },
+    {
+      "item": "meadow:cobbled_limestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "emc": 328
+    },
+    {
+      "item": "simpletungsten:tungsten_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "simpleores:adamantium_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "simpleores:mythril_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "simpleores:onyx_gem",
+      "emc": 4096
+    },
+    {
+      "item": "tfmg:spark_plug",
+      "emc": 0
+    },
+    {
+      "item": "supplementaries:ash",
+      "emc": 1
+    },
+    {
+      "item": "farmersdelight:straw",
+      "emc": 16
+    },
+    {
+      "item": "supplementaries:flax",
+      "emc": 24
+    },
+    {
+      "item": "fusion:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "onlysilver:silver_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:quartz",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:infinity_wand{wand_options:{cores:[\"constructionwand:core_angel\"],cores_sel:1b}}",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:stone_wand{Damage:0,wand_options:{}}",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:iron_wand{Damage:0,wand_options:{}}",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:diamond_wand{Damage:0,wand_options:{cores:[\"constructionwand:core_angel\"],cores_sel:0b}}",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:infinity_wand{wand_options:{}}",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:diamond_wand",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:infinity_wand",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:iron_wand",
+      "emc": 0
+    },
+    {
+      "item": "constructionwand:stone_wand",
+      "emc": 0
+    },
+    {
+      "item": "twigs:bamboo_leaves",
+      "emc": 1
+    },
+    {
+      "item": "#minecraft:shulker_boxes",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:small_flowers",
+      "emc": 32
+    },
+    {
+      "item": "#minecraft:tall_flowers",
+      "emc": 56
+    },
+    {
+      "item": "minecraft:cocoa_beans",
+      "emc": 134
+    },
+    {
+      "item": "minecraft:pitcher_plant",
+      "emc": 43
+    },
+    {
+      "item": "bloomingnature:goatsbeard",
+      "emc": 44
+    },
+    {
+      "item": "minecraft:sea_pickle",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:pink_petals",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:white_dye",
+      "emc": 16
+    },
+    {
+      "item": "bloomingnature:begonie",
+      "emc": 16
+    },
+    {
+      "item": "simplecobalt:cobalt_ingot",
+      "emc": 4096
+    }
+  ]
+}

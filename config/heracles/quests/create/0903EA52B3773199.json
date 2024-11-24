@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DBF7C5DB389814",
+    "0104F749F644DFB0"
+  ],
+  "tasks": {
+    "52A49D9D003CA341": {
+      "type": "heracles:item",
+      "item": "tfmg:radial_engine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:radial_engine",
+    "description": [
+      "<task task=\"52A49D9D003CA341\" quest=\"0903EA52B3773199\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:radial_engine"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          528,
+          -192
+        ]
+      }
+    }
+  }
+}

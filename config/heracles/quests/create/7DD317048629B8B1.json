@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0104F749F644DFB0"
+  ],
+  "tasks": {
+    "098776E969FFCB24": {
+      "type": "heracles:item",
+      "item": "tfmg:napalm_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:napalm_bucket",
+    "description": [
+      "<task task=\"098776E969FFCB24\" quest=\"7DD317048629B8B1\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:napalm_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -80
+        ]
+      }
+    }
+  }
+}

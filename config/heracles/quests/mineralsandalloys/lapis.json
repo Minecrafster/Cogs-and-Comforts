@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "lapis": {
+      "type": "heracles:item",
+      "item": "minecraft:lapis_lazuli",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A blue mineral that can be grinded into dye or used for enchanting.",
+      "<hr/>",
+      "<task task = \"lapis\" quest = \"lapis\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          32,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lapis"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

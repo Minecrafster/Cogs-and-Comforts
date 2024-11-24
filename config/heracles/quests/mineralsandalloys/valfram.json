@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "valfram": {
+      "type": "heracles:item",
+      "item": "simpletungsten:valfram_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An alloy forged with tungsten and materials form the depth of this world. Is resistant to fire.",
+      "<hr/>",
+      "<task task = 'valfram' quest = 'valfram'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          128,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simpletungsten:valfram_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Valfram"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

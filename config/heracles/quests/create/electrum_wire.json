@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "44192307AE7AB469",
+    "041E36E3895ED300"
+  ],
+  "tasks": {
+    "wire": {
+      "type": "heracles:item",
+      "item": "createaddition:electrum_wire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Electrum Wire"
+    },
+    "description": [
+      "<subtitle id=\"electrum_wire\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task = \"wire\" quest = \"electrum_wire\"/>",
+      "<hr/>",
+      "A cheaper electricity conductor! Maybe it can be used to craft something even better, like a necklace?"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:electrum_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electrum Wire"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

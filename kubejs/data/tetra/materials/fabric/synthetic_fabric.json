@@ -1,0 +1,29 @@
+{
+    "key": "synthetic_fabric",
+    "category": "fabric",
+    "primary": 8,
+    "secondary": 0.5,
+    "tertiary": 5,
+    "durability": 762,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 24,
+    "toolLevel": 0,
+    "toolEfficiency": 0.1,
+    "tints": {
+      "glyph": "d2d1cf",
+      "texture": "d2d1cf"
+    },
+    "textures": [
+      "crude",
+      "default"
+    ],
+    "material": {
+      "items": [
+        "kubejs:synthetic_fabric"
+      ]
+    },
+    "requiredTools": {
+      "cut": "minecraft:stone"
+    }
+  }

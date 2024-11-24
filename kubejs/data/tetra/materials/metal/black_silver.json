@@ -1,0 +1,24 @@
+{
+    "key" : "black_silver",
+    "category" : "metal",
+    "primary" : 9.0,
+    "secondary" : 4.1,
+    "tertiary" : 1.5,
+    "durability" : 3460.0,
+    "integrityCost" : 2,
+    "integrityGain" : 8,
+    "magicCapacity" : 132,
+    "toolLevel" : 6,
+    "toolEfficiency" : 8,
+    "tints" : {
+      "glyph" : "434444",
+      "texture" : "434444"
+    },
+    "textures" : ["metal", "default" ],
+    "material" : {
+      "items" : [ "sterlingblack:black_silver_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:diamond"
+    }
+  }

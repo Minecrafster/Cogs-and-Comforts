@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "7EBA34AD56F2F5FD": {
+      "type": "heracles:item",
+      "item": "create:super_glue",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "It sticks."
+    },
+    "description": [
+      "<subtitle id=\"6F7B4A96AE8BC744\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7EBA34AD56F2F5FD\" quest=\"6F7B4A96AE8BC744\"/>",
+      "<hr/>",
+      "Superglue is essential to many contraptions, enabling them to move as a whole.",
+      "<br/>",
+      "If you somehow don't have access to slimes, you can craft slimeballs with lime dye and dough in create. Just so you know."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:super_glue",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Superglue"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "hammer": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "double/basic_hammer_left_material": "basic_hammer/oak",
+          "double/handle": "double/basic_handle",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_handle_material": "basic_handle/stick",
+          "double/head_left": "double/basic_hammer_left",
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/oak"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "holo": {
+      "item": {
+        "id": "tetra:holo",
+        "count": 1,
+        "nbt": {
+          "holo/frame": "holo/frame",
+          "holo/repo_material": "repo/default",
+          "holo/scanner_material": "scanner/default",
+          "holo/core": "holo/core",
+          "holo/frame_material": "core/ancient",
+          "holo/scanner": "holo/scanner",
+          "holo/repo": "holo/repo",
+          "holo/core_material": "frame/dim"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Modular Weapon & Tool Building"
+    },
+    "description": [
+      "Tetra is a mod where you build modular tools. You can right click a crafting table with the hammer provided to begin your progress. ",
+      "",
+      "Most alloys and synthetic materials in this modpack can be used as materials to forge your weapon/tool. Check the Minerals and Alloys tab for more information. ",
+      "",
+      "<item id=\"tetra:holo\" scale=\"2.0\" tag = '{\"holo/frame\":\"holo/frame\",\"holo/repo_material\":\"repo/default\",\"holo/scanner_material\":\"scanner/default\",\"holo/core\":\"holo/core\",\"holo/frame_material\":\"core/ancient\",\"holo/scanner\":\"holo/scanner\",\"holo/repo\":\"holo/repo\",\"holo/core_material\":\"frame/dim\"}'/>",
+      "",
+      "The holosphere(as shown above) will also provide information on all modules and materials.",
+      "",
+      "If you feel confused about the progress, you may check it's built-in advancement tree. An explorer's compass may also aid you in the process.",
+      "",
+      "Do note that some of its content is not complete yet, but for the purposes of this modpack, what is present is good enough.",
+      "<hr/>",
+      "<task task = 'check' quest = 'tetra'/>",
+      "<hr/>",
+      "<reward reward = 'hammer' quest = 'tetra'/>",
+      "<reward reward = 'holo' quest = 'tetra'/>"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:holo",
+        "count": 1,
+        "nbt": {
+          "holo/frame": "holo/frame",
+          "holo/repo_material": "repo/default",
+          "holo/scanner_material": "scanner/default",
+          "holo/core": "holo/core",
+          "holo/frame_material": "core/ancient",
+          "holo/scanner": "holo/scanner",
+          "holo/repo": "holo/repo",
+          "holo/core_material": "frame/dim"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Tetra"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

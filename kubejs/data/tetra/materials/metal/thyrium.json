@@ -1,0 +1,27 @@
+{
+    "key" : "thyrium",
+    "category" : "metal",
+    "primary" : 9.0,
+    "secondary" : 3.0,
+    "tertiary" : 3.0,
+    "durability" : 2000.0,
+    "integrityCost" : 2,
+    "integrityGain" : 5,
+    "magicCapacity" : 168,
+    "toolLevel" : "minecraft:diamond",
+    "toolEfficiency" : 22,
+    "tints" : {
+      "glyph" : "80ffec",
+      "texture" : "80ffec"
+    },
+    "textures" : [ "shiny","metal", "default" ],
+    "material" : {
+      "items" : [ "fusion:thyrium_ingot" ]
+    },
+    "effects": {
+        "stabilizing": 25
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

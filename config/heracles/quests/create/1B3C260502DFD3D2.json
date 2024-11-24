@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "370AF6E41DEF4A9A"
+  ],
+  "tasks": {
+    "0243868A1BFD258D": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "353F0F127D9E6181": {
+      "type": "heracles:item",
+      "item": "ratatouille:oven",
+      "amount": 27,
+      "collection": "AUTOMATIC"
+    },
+    "422677D9F6DEE40A": {
+      "type": "heracles:item",
+      "item": "ratatouille:oven_fan",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Build an oven so efficient it cooks instantly! "
+    },
+    "description": [
+      "<subtitle id=\"1B3C260502DFD3D2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"353F0F127D9E6181\" quest=\"1B3C260502DFD3D2\"/>",
+      "<task task=\"0243868A1BFD258D\" quest=\"1B3C260502DFD3D2\"/>",
+      "<task task=\"422677D9F6DEE40A\" quest=\"1B3C260502DFD3D2\"/>",
+      "<hr/>",
+      "Remember to put a filter on your brass funnel."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:creative_blaze_cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "INSTANT FOOD COOKING"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

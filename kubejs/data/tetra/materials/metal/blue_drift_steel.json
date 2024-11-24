@@ -1,0 +1,24 @@
+{
+    "key" : "blue_drift_steel",
+    "category" : "metal",
+    "primary" : 5.0,
+    "secondary" : 4.0,
+    "tertiary" : 1.0,
+    "durability" : 1240,
+    "integrityCost" : 2,
+    "integrityGain" : 2,
+    "magicCapacity" : 96,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 13,
+    "tints" : {
+      "glyph" : "377ec0",
+      "texture" : "377ec0"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simplecobalt:blue_drift_steel_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:stone"
+    }
+  }

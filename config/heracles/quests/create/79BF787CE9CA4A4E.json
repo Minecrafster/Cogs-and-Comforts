@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "0CFFC2B7B454D693": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft a cart assembler"
+    },
+    "description": [
+      "<subtitle id=\"79BF787CE9CA4A4E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0CFFC2B7B454D693\" quest=\"79BF787CE9CA4A4E\"/>",
+      "<hr/>",
+      "The cart assembler is a very versatile block. It allows you to attach large structures to a minecart, and pick them up with your wrench! It is very useful for transferring entire structures, although be careful as carrying too large of one may inventory-ban you in multiplayer."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cart_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Cart Assembler"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

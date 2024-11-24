@@ -1,0 +1,49 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "zinc": {
+      "type": "heracles:item",
+      "item": "create:zinc_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "~~According to the Mayo clinic, zinc, a nutrient found throughout your body, helps your immune system and metabolism function.~~",
+      "Zinc is a metal that can be cut into an assortment of frameworks and can be alloyed into brass, which is essential for smart machines.",
+      "<hr/>",
+      "<task task = \"zinc\" quest = \"zinc\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          80,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Zinc"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

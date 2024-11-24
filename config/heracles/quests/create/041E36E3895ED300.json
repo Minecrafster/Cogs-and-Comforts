@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "electrum_wire",
+    "434E69C643EEB297"
+  ],
+  "tasks": {
+    "5E9C14CE2406293A": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Capture a blaze"
+    },
+    "description": [
+      "<subtitle id=\"041E36E3895ED300\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5E9C14CE2406293A\" quest=\"041E36E3895ED300\"/>",
+      "<hr/>",
+      "",
+      "These are essential if you ever need to heat something up."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "I will set the seas 'A Blaze'"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

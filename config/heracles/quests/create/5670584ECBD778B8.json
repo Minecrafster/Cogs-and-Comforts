@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "12D7D2F001CD19FF"
+  ],
+  "tasks": {
+    "066C1F8E2C84384B": {
+      "type": "heracles:item",
+      "item": "tfmg:limesand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Crush limestone into limesand"
+    },
+    "description": [
+      "<subtitle id=\"5670584ECBD778B8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"066C1F8E2C84384B\" quest=\"5670584ECBD778B8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:limesand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Limesand"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

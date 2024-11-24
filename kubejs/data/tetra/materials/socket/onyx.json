@@ -1,0 +1,30 @@
+{
+    "key": "onyx_socket",
+    "hidden": true,
+    "category": "socket",
+    "primary": 8,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 3,
+    "attributes": {
+      "**generic.attack_damage": 0.15
+    },
+    "tints": {
+      "glyph": "414141",
+      "texture": "414141"
+    },
+    "textures": [
+      "default"
+    ],
+    "experienceCost": 3,
+    "material": {
+      "items": [
+        "simpleores:onyx_gem"
+      ]
+    }
+  }

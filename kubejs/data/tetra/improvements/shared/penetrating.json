@@ -1,0 +1,30 @@
+[
+    {
+        "key": "penetrating",
+        "level": 1,
+        "effects": {
+            "armorPenetration": 10
+        }
+    },
+    {
+        "key": "penetrating",
+        "level": 2,
+        "effects": {
+            "armorPenetration": 20
+        }
+    },
+    {
+        "key": "penetrating",
+        "level": 3,
+        "effects": {
+            "armorPenetration": 30
+        }
+    },
+    {
+        "key": "penetrating",
+        "level": 4,
+        "effects": {
+            "armorPenetration": 45
+        }
+    }
+]

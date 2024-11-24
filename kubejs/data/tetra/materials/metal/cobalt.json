@@ -1,0 +1,24 @@
+{
+    "key" : "cobalt",
+    "category" : "metal",
+    "primary" : 5.0,
+    "secondary" : 2.0,
+    "tertiary" : 1.0,
+    "durability" : 1350.0,
+    "integrityCost" : 1,
+    "integrityGain" : 4,
+    "magicCapacity" : 48,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 7,
+    "tints" : {
+      "glyph" : "515151",
+      "texture" : "515151"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simplecobalt:cobalt_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

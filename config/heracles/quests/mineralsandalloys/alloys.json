@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "steel",
+    "erubescent gold",
+    "electrum",
+    "rose gold",
+    "scarlatite gold",
+    "black silver",
+    "brass",
+    "prasinos",
+    "tungsten steel",
+    "sterling steel",
+    "bronze",
+    "sinisite",
+    "blue celadon",
+    "cast iron",
+    "hephaestan gold",
+    "blue drift steel",
+    "green celadon",
+    "andesite",
+    "tungsten carbide",
+    "prismarine_alloy",
+    "thyrium",
+    "valfram"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Materials that are made from more materials"
+    },
+    "description": [
+      "You set out on a quest to collect all the alloys in the dictionary.",
+      "",
+      "<task task = 'check' quest = 'alloys'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          0,
+          56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tfmg:steel_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alloys"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

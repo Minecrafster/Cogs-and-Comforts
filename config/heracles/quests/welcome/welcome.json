@@ -1,0 +1,121 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "CHECKMARK": {
+      "title": "Are you ready to begin?",
+      "icon": {
+        "item": {
+          "id": "minecraft:grass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "Elytra": {
+      "title": "Wooh, wings!",
+      "item": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "SLEEPING_BAG": {
+      "title": "A Sleeping Bag",
+      "item": {
+        "id": "comforts:sleeping_bag_red",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "STONE_AXE": {
+      "title": "A Free Axe",
+      "item": {
+        "id": "minecraft:stone_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "STONE_PICK": {
+      "title": "A Free Pickaxe",
+      "item": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "quest_book": {
+      "title": "A Quest Book",
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Your Journey Begins"
+    },
+    "description": [
+      "**Welcome to Cogs and Comforts!**",
+      "",
+      "<img src=\"kubejs:textures/title.png\" width=\"200\" height=\"125\"/>",
+      "",
+      "As the title might suggest, the 2 main focii of this modpack is the create mod(hence the cogs) and relaxing(hence the comforts).",
+      "",
+      "The modpack is designed to be a fun experience for one or a group of players, who can focus on an immersive experience of building up an industry while enjoying some more reaxing features of minecraft, such as building, cooking and sightseeing.",
+      "",
+      "To take some stress off of the experience, your hotbar, armour items, off hand and curios are kept on death. This behaviour can be changed in the configurable death config file and curios config file.",
+      "",
+      "See other quests for a more detailed introduction on the mods!",
+      "",
+      "Oh, by the way, here's a few free gifts to get you started!",
+      "",
+      "<task task = \"CHECKMARK\" quest = \"welcome\"/>",
+      "<hr/>",
+      "<reward reward = \"Elytra\" quest = \"welcome\"/>",
+      "<reward reward = \"SLEEPING_BAG\" quest = \"welcome\"/>",
+      "<reward reward = \"STONE_AXE\" quest = \"welcome\"/>",
+      "<reward reward = \"STONE_PICK\" quest = \"welcome\"/>",
+      "<reward reward = \"quest_book\" quest = \"welcome\"/>"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Cogs and Comforts"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F58CD6F2AC3F1F9"
+  ],
+  "tasks": {
+    "3F4BBC7B96F6671B": {
+      "type": "heracles:item",
+      "item": "tfmg:heavy_oil_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:heavy_oil_bucket",
+    "description": [
+      "<task task=\"3F4BBC7B96F6671B\" quest=\"12CF9B324F60D4F0\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:heavy_oil_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          416,
+          -192
+        ]
+      }
+    }
+  }
+}

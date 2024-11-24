@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2A05B527F554E99A",
+    "2B24002ED41EAE9B"
+  ],
+  "tasks": {
+    "20D1533E4D8A14FE": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:steel_mechanism",
+    "description": [
+      "<subtitle id=\"24A3213E49AF870C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"20D1533E4D8A14FE\" quest=\"24A3213E49AF870C\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:steel_mechanism"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Assemble a steel mechanism"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          336,
+          -48
+        ]
+      }
+    }
+  }
+}

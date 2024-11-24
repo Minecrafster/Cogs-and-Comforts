@@ -1,0 +1,31 @@
+{
+    "key": "rose_quartz",
+    "category": "gem",
+    "primary": 4.5,
+    "secondary": 1,
+    "tertiary": 0,
+    "durability": 650,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 150,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "ff296f",
+        "texture": "ff296f"
+    },
+    "textures": [
+        "shiny",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [ "create:polished_rose_quartz" ]
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

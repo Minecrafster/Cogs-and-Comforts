@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "44192307AE7AB469"
+  ],
+  "tasks": {
+    "5108317FDBF5951F": {
+      "type": "heracles:item",
+      "item": "createaddition:gold_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Make a very dense metal rod"
+    },
+    "description": [
+      "<subtitle id=\"42D3D79B4BB62A5E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5108317FDBF5951F\" quest=\"42D3D79B4BB62A5E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          -288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:gold_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Can we make APFSDS with this?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

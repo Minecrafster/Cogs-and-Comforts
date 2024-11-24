@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "44192307AE7AB469"
+  ],
+  "tasks": {
+    "22EDE97962756587": {
+      "type": "heracles:item",
+      "item": "createaddition:iron_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Iron rod"
+    },
+    "description": [
+      "<subtitle id=\"3FB097C20B5087E1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"22EDE97962756587\" quest=\"3FB097C20B5087E1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:iron_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Help I'm running out of witty titles"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

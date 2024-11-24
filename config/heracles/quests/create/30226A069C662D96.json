@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": "IN_PROGRESS"
+  },
+  "dependencies": [
+    "125AD6B0EBEE39BA"
+  ],
+  "tasks": {
+    "2B54298D91056BAE": {
+      "type": "heracles:item",
+      "item": "create_jetpack:netherite_jetpack",
+      "nbt": {
+        "Air": 900
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "This jetpack protecc",
+    "description": [
+      "<subtitle id=\"30226A069C662D96\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2B54298D91056BAE\" quest=\"30226A069C662D96\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create_jetpack:netherite_jetpack"
+    },
+    "subtitle": {
+      "text": "Netherite Jetpack, son!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          496,
+          0
+        ]
+      }
+    }
+  }
+}

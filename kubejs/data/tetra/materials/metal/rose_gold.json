@@ -1,0 +1,31 @@
+{
+    "key": "rose_gold",
+    "category": "metal",
+    "primary": 4,
+    "secondary": 4.3,
+    "tertiary": 2.5,
+    "durability": 240,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "eeb5a0",
+        "texture": "eeb5a0"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [ "goldenglitter:rose_gold_ingot" ]
+    },
+    "effects": {
+        "stabilizing": 10
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

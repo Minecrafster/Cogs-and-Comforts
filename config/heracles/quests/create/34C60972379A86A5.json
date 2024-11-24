@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "7DFEF17CB1D3FDC0": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump"
+    },
+    "155D69738736C9F4": {
+      "type": "heracles:item",
+      "item": "create:fluid_pipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Plumbing 101",
+    "description": [
+      "<subtitle id=\"34C60972379A86A5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7DFEF17CB1D3FDC0\" quest=\"34C60972379A86A5\"/>",
+      "<task task=\"155D69738736C9F4\" quest=\"34C60972379A86A5\"/>",
+      "<hr/>",
+      "Can I into Mario?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump"
+    },
+    "subtitle": {
+      "text": "Obtain a pump and pipes"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    }
+  }
+}

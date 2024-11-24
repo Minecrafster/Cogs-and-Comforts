@@ -1,0 +1,24 @@
+{
+    "key" : "carbon_fiber",
+    "category" : "metal",
+    "primary" : 4.0,
+    "secondary" : -2.0,
+    "tertiary" : 12.0,
+    "durability" : 480.0,
+    "integrityCost" : 1,
+    "integrityGain" : 6,
+    "magicCapacity" : 24,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 3,
+    "tints" : {
+      "glyph" : "293234",
+      "texture" : "293234"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "kubejs:carbon_fiber" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "040047BB16CD79D8"
+  ],
+  "tasks": {
+    "6B87615A081B225A": {
+      "type": "heracles:item",
+      "item": "netmusic:cd_burner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Net Music",
+    "description": [
+      "<subtitle id=\"4A8BD986E1808137\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6B87615A081B225A\" quest=\"4A8BD986E1808137\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "netmusic:music_cd"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Make a CD Burner"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          -336
+        ]
+      }
+    }
+  }
+}

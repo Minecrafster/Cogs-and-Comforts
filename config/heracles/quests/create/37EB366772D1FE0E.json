@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "71E33AF33AF6A292"
+  ],
+  "tasks": {
+    "322D8D1D34DAB4B7": {
+      "type": "heracles:item",
+      "item": "create_high_pressure:graphite_compressed",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"322D8D1D34DAB4B7\" quest=\"37EB366772D1FE0E\"/>",
+      "<hr/>",
+      "Maybe if we compact graphite powder, we can get a new form of Carbon..."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adding More Pressure"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

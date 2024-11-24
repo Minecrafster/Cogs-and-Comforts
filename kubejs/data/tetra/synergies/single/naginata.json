@@ -1,0 +1,30 @@
+[
+  {
+    "modules": [
+      "single/long_handle",
+      "single/naginata_blade"
+    ], 
+    "effects":{
+        "truesweep":1,
+        "sweeping":[5,2]
+    }
+  },
+  {
+    "modules": [
+      "single/basic_handle",
+      "single/naginata_blade"
+    ],
+    "attributes":{
+      "**generic.attack_damage":-0.4
+    }
+  },
+  {
+    "modules": [
+      "single/light_handle",
+      "single/naginata_blade"
+    ],
+    "attributes":{
+      "**generic.attack_damage":-0.4
+    }
+  }
+]

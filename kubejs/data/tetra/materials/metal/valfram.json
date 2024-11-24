@@ -1,0 +1,24 @@
+{
+    "key" : "valfram",
+    "category" : "metal",
+    "primary" : 6.0,
+    "secondary" : 6.0,
+    "tertiary" : 0.0,
+    "durability" : 1420,
+    "integrityCost" : 2,
+    "integrityGain" : 2,
+    "magicCapacity" : 120,
+    "toolLevel" : "minecraft:diamond",
+    "toolEfficiency" : 17,
+    "tints" : {
+      "glyph" : "703530",
+      "texture" : "703530"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+      "items" : [ "simpletungsten:valfram_ingot" ]
+    },
+    "requiredTools" : {
+      "hammer_dig" : "minecraft:iron"
+    }
+  }

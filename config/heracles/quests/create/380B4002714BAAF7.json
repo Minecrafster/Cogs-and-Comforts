@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "0A7EAEF0C47B5473"
+  ],
+  "tasks": {
+    "43B412AA9AD49201": {
+      "type": "heracles:item",
+      "item": "create:large_water_wheel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "45728F692F78E8F0": {
+      "item": {
+        "id": "simpleores:copper_bucket",
+        "count": 2,
+        "nbt": {
+          "Fluid": {
+            "FluidName": "minecraft:water",
+            "Amount": 1000
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "SPIN"
+    },
+    "description": [
+      "<subtitle id=\"380B4002714BAAF7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"43B412AA9AD49201\" quest=\"380B4002714BAAF7\"/>",
+      "<hr/>",
+      "The large water wheel is probably the cheapest source of SU. With 1 shaft and 16 planks, it provides 512 SU, and is very much stackable. ",
+      "<br/>",
+      "While looking through the structure you find 2 copper buckets of water. How did they get there?",
+      "<hr/>",
+      "<reward reward=\"45728F692F78E8F0\" quest=\"380B4002714BAAF7\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:large_water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Large Water Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

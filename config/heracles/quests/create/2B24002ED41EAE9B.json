@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "351CFD0433F826C5",
+    "309A07C09AC4B728"
+  ],
+  "tasks": {
+    "0BFE8362EAD26A64": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Let me do it for you",
+    "description": [
+      "<subtitle id=\"2B24002ED41EAE9B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0BFE8362EAD26A64\" quest=\"2B24002ED41EAE9B\"/>",
+      "<hr/>",
+      "It can be used to emulate player input, AND for automated assemblies!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    },
+    "subtitle": {
+      "text": "Obtain a brass helper"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44C10544D23067F8"
+  ],
+  "tasks": {
+    "62BBD1C3BA67517D": {
+      "type": "heracles:item",
+      "item": "tfmg:cooling_fluid_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: tfmg:cooling_fluid_bucket",
+    "description": [
+      "<task task=\"62BBD1C3BA67517D\" quest=\"6C15F51D531289CF\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tfmg:cooling_fluid_bucket"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          480,
+          -240
+        ]
+      }
+    }
+  }
+}

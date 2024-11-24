@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "minerals",
+    "alloys",
+    "ingots"
+  ],
+  "tasks": {
+    "checkmark": {
+      "title": "Having Collected Evreything",
+      "icon": {
+        "item": {
+          "id": "heracles:quest_book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "exp": {
+      "xptype": "POINTS",
+      "amount": 10000,
+      "title": "Xp Shower",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A dictionary of all the minerals and alloys"
+    },
+    "description": [
+      "You have collected every possible alloy and mineral in this modpack, completing the dictionary.",
+      "",
+      "Congratulations!",
+      "",
+      "<task task = \"checkmark\" quest = \"the_dictionary\"/>",
+      "<hr/>",
+      "<reward reward = \"exp\" quest = \"the_dictionary\"/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          -32,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Dictionary"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

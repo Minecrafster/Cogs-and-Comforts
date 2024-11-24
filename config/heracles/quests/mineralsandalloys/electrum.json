@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "electrum": {
+      "type": "heracles:item",
+      "item": "createaddition:electrum_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Conductive and magical alloy. Great for making wires and stabalizing enchanted items.",
+      "<hr/>",
+      "<task task = 'electrum' quest = 'electrum'/>"
+    ],
+    "groups": {
+      "Minerals and Alloys": {
+        "position": [
+          104,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:electrum_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electrum"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
