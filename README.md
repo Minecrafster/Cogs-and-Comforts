@@ -6,9 +6,10 @@ Do you want an immersive but not painful experience of building an industry from
 
 
 
+## [Modrinth Page](https://modrinth.com/modpack/cogs-and-comforts)
 
 ## Disclaimer
-Cogs and Comforts is still in testing. There can and will be bugs, issues or unbalanced stuff. If you have a problem or suggestion, feel free to join [The Discord server](https://discord.gg/cauUp92MXA) and open a thread in the bugs or suggestions forum. For more details on the content you can read the changelog.
+Cogs and Comforts is still in testing. There can and will be bugs, issues or unbalanced stuff. If you have a problem or suggestion, feel free to join [The Discord server](https://discord.gg/cauUp92MXA) and open a thread in the bugs or suggestions forum or submitting an issue on Github. For more details on the content you can read the changelog.
 
 
 ## Major Features
