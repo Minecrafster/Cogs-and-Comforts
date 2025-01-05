@@ -1,0 +1,30 @@
+{
+    "trigger":"tetra:apply_hit_effects",
+    "effect":"bow_critical",
+    "condition":{
+        "type": "tetra:random",
+        "chance": "level * 0.01"
+    },
+    "outcome": {
+        "type": "tetra:apply_effect",
+        "effect": "tetra:bleeding",
+        "entity": "attacker",
+        "source": "target",
+        "duration": "20 * efficiency",
+        "amplifier": 3,
+        "stackAmplifierCap": 10,
+        "stackDurationCap": "60 * efficiency"
+    },
+    "data":{
+        "numbers":{
+            "efficiency":{
+                "type": "tetra:effect_efficiency",
+                "effect": "bow_critical"
+            },
+            "level":{
+                "type": "tetra:effect_level",
+                "effect": "bow_critical"
+            }
+        }
+    }
+}

@@ -3,56 +3,34 @@
     "slots": [
         "bow/riser"
     ],
-    "type": "tetra:basic_module",
+    "type": "tetra:basic_major_module",
+    "tweakKey": "tetra:bow/scope_adjustable_zoom",
     "variants": [
         {
-            "materials": [
-                "tetra:wood/"
-            ],
             "key": "optics/",
             "effects": {
-                "zoom": 6,
+                "zoom": 40,
                 "focus": [
                     0,
-                    0.5
+                    5
                 ],
-                "criticalStrike":[
+                "bow_critical": [
                     100,
-                    2
+                    1
                 ]
             },
+            "models": [
+                {
+                    "location": "tetra:item/module/bow/riser/optics/default",
+                    "type": "static"
+                }
+            ],
             "integrity": -1,
             "durability": 10,
-            "extract": {
-                "primaryEffects": {
-                    "zoom": 3.4,
-                    "focus": [
-                        0,
-                        -0.02
-                    ]
-                },
-                "tertiaryEffects": {
-                    "zoom": -0.7,
-                    "focus": [
-                        0,
-                        0.08
-                    ]
-                },
-                "durability": 0.2,
-                "glyph": {
+            "glyph": {
                     "textureX": 120,
                     "textureY": 112
-                },
-                "availableTextures": [
-                    "default"
-                ],
-                "models": [
-                    {
-                        "location": "tetra:item/module/bow/riser/sight/",
-                        "type": "static"
-                    }
-                ]
-            }
+                }
         }
     ]
 }

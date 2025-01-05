@@ -1,0 +1,12 @@
+[
+    {
+        "variant":"optics/",
+        "key":"bow/optics",
+        "steps":2,
+        "properties":{
+            "effects":{
+                "zoom":20
+            }
+        }
+    }
+]

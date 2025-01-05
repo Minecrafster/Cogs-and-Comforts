@@ -13,9 +13,13 @@ StartupEvents.registry('item', event => {
     event.create('carbon_fiber')
     event.create('plastic_string')
     event.create('synthetic_fabric')
+
     //Synthetic transition items
     event.create('incomplete_synthetic_fabric')
     event.create('incomplete_carbon_fiber')
+
+    //Tetra New Parts
+    event.create('scope')
 
     //APFSDS at home
     event.create('tungsten_carrot').food(food =>{

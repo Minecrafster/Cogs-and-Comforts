@@ -77,5 +77,14 @@
     "death.attack.bleeding":"%1$s bled out",
     "death.attack.bleeding.player":"%1$s died of %2$s's bloodletting",
     "death.attack.bleeding.item":"%1$s died of %2$s's bloodletting using %3$s",
-    "effect.tetra.bleeding":"Bleeding"
+    "effect.tetra.bleeding":"Bleeding",
+    "tetra/schematic/bow/riser/optics.description":"Attach a scope to the riser, providing excellent precision, adjustable zoom from 0x to 8x while sneaking, and the ability to strike the target critically.",
+    "tetra/schematic/bow/riser/optics.name":"Advanced Optics",
+    "tetra/schematic/bow/riser/optics.slot1":"Scope",
+    "tetra.variant.optics/": "Telescopic Sight",
+    "tetra.tweak.bow/optics.label":"Zoom Level",
+    "tetra.tweak.bow/optics.left":"No Zoom",
+    "tetra.tweak.bow/optics.right":"Spyglass Zoom",
+    "tetra.tweak.bow/optics.tooltip":"Adjust the zoom level of the scope",
+    "tetra.module.bow/optics.description":"An adjustable telescopic sight provifing excellent zoom and extra precision."
 }

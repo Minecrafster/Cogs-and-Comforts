@@ -10,22 +10,11 @@
         "textureX": 120,
         "textureY": 112
     },
-    "translation": {
-        "primaryEffects": {
-            "zoom": 3,
-            "focus": -1
-        },
-        "tertiaryEffects": {
-            "focus": 3,
-            "zoom": -1
-        },
-        "durability": 1
-    },
     "outcomes": [
         {
-            "materials": [
-                "tetra:wood/"
-            ],
+            "material": {
+                "items": ["kubejs:scope"]
+            },
             "moduleKey": "bow/optics",
             "moduleVariant": "optics/"
         }
