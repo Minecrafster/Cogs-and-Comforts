@@ -20,6 +20,7 @@ StartupEvents.registry('item', event => {
 
     //Tetra New Parts
     event.create('scope')
+    event.create('amethyst_lens')
 
     //APFSDS at home
     event.create('tungsten_carrot').food(food =>{
