@@ -250,10 +250,6 @@
 				polished_cut_bauxite = true
 				cut_bauxite_brick = true
 				small_bauxite_brick = true
-				cut_galena = true
-				polished_cut_galena = true
-				cut_galena_brick = true
-				small_galena_brick = true
 
 			[general.types.cut_block_type.simplytools]
 				clean_end_stone = true

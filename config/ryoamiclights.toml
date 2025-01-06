@@ -21,6 +21,7 @@
 				llama = true
 				frog = true
 				bat = true
+				husk = true
 				hoglin = true
 				camel = true
 				rabbit = true
@@ -37,6 +38,7 @@
 				wandering_trader = true
 				wither_skeleton = true
 				vex = true
+				piglin_brute = true
 				goat = true
 				ocelot = true
 				furnace_minecart = true
@@ -132,28 +134,34 @@
 				super_glue = true
 				potato_projectile = true
 
+			[light_sources.settings.entities.supplementaries]
+				red_merchant = true
+
 			[light_sources.settings.entities.tfmg]
 				green_spark = true
 				copper_grenade = true
 				thermite_grenade = true
 				spark = true
 				blue_spark = true
+				pipe_bomb = true
 				zin_grenade = true
+				napalm_potato = true
 
 			[light_sources.settings.entities.doapi]
 				chair = true
 
 			[light_sources.settings.entities.bloomingnature]
 				deer = true
+				owl = true
+				wandering_gardener = true
+				pelican = true
+				termite = true
 				boar = true
 				raccoon = true
 				red_wolf = true
 				squirrel = true
-				owl = true
 				turkey = true
 				muddy_pig = true
-				wandering_gardener = true
-				pelican = true
 				bison = true
 
 			[light_sources.settings.entities.neapolitan]
