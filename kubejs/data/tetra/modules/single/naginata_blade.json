@@ -21,7 +21,8 @@
             ],
             "key": "naginata_blade/",
             "attributes": {
-                "generic.attack_speed": -1.4
+                "generic.attack_speed": -1.4,
+                "generic.attack_damage": 3
             },
             "aspects": {
                 "edged_weapon": 2,
@@ -40,10 +41,10 @@
             "durability": -20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1.0
+                    "generic.attack_damage": 0.65
                 },
                 "secondaryAttributes": {
-                    "generic.attack_speed": -0.15,
+                    "generic.attack_speed": -0.2,
                     "generic.attack_damage": 0.5
                 },
                 "durability": 0.8,
