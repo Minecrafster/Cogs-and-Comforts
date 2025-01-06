@@ -45,4 +45,8 @@ I put every single optimization mod that would fit on forge here, so you can enj
 
 If your PC is still burning try turning distant horizons off. 
 
-Do note that due to the amount of mods some things might break. I haven't playtested every nook and cranny yet, so backup frequently. If you find a bug or have a suggestion you can report it at our discord server. 
+Do note that due to the amount of mods some things might break. I haven't playtested every nook and cranny yet, so backup frequently. If you find any bugs, don't hesistate to report it!
+
+
+## Running Cogs and Comforts on a server
+This is not tested thoroughly as I'm not very familiar with servers, but installing the pack via any launcher and copy the relevant folders and contained files to the server folder and removing all mods that stops the server from running should work.
